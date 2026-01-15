@@ -1,0 +1,4396 @@
+[
+  {
+    "id": 1,
+    "price": "86 000 $",
+    "price_hrn": "3 612 000 грн",
+    "price_per_m2": "1 265 $ за м²",
+    "price_per_m2_hrn": "53 130 грн за м²",
+    "address": "вул. Київська",
+    "city": "Тернопіль",
+    "district": "Північний",
+    "complex": "ЖК Київський",
+    "rooms": 2,
+    "total_area": "68 м²",
+    "living_area": "42 м²",
+    "kitchen_area": "14 м²",
+    "floor": "4 з 11",
+    "total_floors": 11,
+    "property_type": "Вторинна нерухомість",
+    "seller_type": "Власник",
+    "building_type": "Цегла",
+    "build_year": "2005",
+    "walls": "Цегла",
+    "ceiling_height": "2.7 м",
+    "condition": "після ремонту",
+    "heating": "індивідуальне",
+    "water_heating": "бойлер",
+    "bathroom": "суміжний санвузол",
+    "meters": [
+      "лічильник на електрику",
+      "лічильник на воду"
+    ],
+    "utilities": [
+      "електрика",
+      "інтернет"
+    ],
+    "entrance": "домофон",
+    "furniture": "частково",
+    "yard_type": "оздоблений двір",
+    "balcony": true,
+    "internal_finish": "після ремонту",
+    "external_finish": "утеплений",
+    "insulation": "зовнішнє утеплення",
+    "ceilings_finish": "натяжні стелі",
+    "floor_finish": "ламинат",
+    "benefits": [
+      "Поруч зупинка",
+      "Оперативний показ",
+      "Охайний під'їзд",
+      "Спокійний район"
+    ],
+    "commission": "Без комісії",
+    "description": "Двокімнатна квартира з окремою кухнею, сучасним ремонтом та лоджією. Індивідуальне опалення, підігрів підлоги.",
+    "full_description": "Квартира з якісним євроремонтом, встановлено теплу підлогу в санвузлі та кухні. Вікна пластикові, енергозберігаючі. Санвузол суміжний, укомплектований сучасною сантехнікою. Кухня з кухонним гарнітуром та вбудованою технікою. Лоджія засклена та утеплена. Будинок з озелененим двором, дитячим майданчиком та спортивним комплексом. Поруч зупинки громадського транспорту, супермаркети, школа та дитячий садок.",
+    "verified": true,
+    "verified_date": "4 лис.",
+    "passport_provided": true,
+    "created": "27 жов. 2025",
+    "views": 18472,
+    "saved": 289,
+    "listing_id": "ID 33438756",
+    "realtor": {
+      "name": "Олена",
+      "verified": false,
+      "online": false,
+      "last_seen": "3 години тому",
+      "rating": null,
+      "experience_years": null,
+      "listings_sold": null,
+      "avatar": "./src/img/img1.webp"
+    },
+    "building_info": {
+      "address": "вул. Київська, 15А",
+      "build_year_range": "2005",
+      "external_walls": "цегла",
+      "entrances": 3,
+      "insulation": "зовнішнє утеплення",
+      "yard": "оздоблений двір",
+      "amenities": [
+        "Дитячий майданчик",
+        "Спортивний майданчик",
+        "Місця для паркінгу",
+        "Озеленення"
+      ]
+    },
+    "infrastructure": {
+      "education": [
+        {
+          "name": "Школа №8",
+          "walk_time": "15хв",
+          "distance": "850м"
+        },
+        {
+          "name": "Дитячий садок №12",
+          "walk_time": "10хв",
+          "distance": "600м"
+        },
+        {
+          "name": "Тернопільський національний технічний університет",
+          "walk_time": "25хв",
+          "distance": "1.5км"
+        }
+      ],
+      "kindergartens": [
+        {
+          "name": "Дитячий садок №12",
+          "walk_time": "10хв",
+          "distance": "600м"
+        },
+        {
+          "name": "Дитячий садок №5",
+          "walk_time": "15хв",
+          "distance": "900м"
+        }
+      ],
+      "schools": [
+        {
+          "name": "Школа №8",
+          "walk_time": "15хв",
+          "distance": "850м"
+        },
+        {
+          "name": "Школа №15",
+          "walk_time": "20хв",
+          "distance": "1.2км"
+        }
+      ],
+      "shops": [
+        {
+          "name": "АТБ-Маркет",
+          "walk_time": "5хв",
+          "distance": "300м"
+        },
+        {
+          "name": "Сільпо",
+          "walk_time": "10хв",
+          "distance": "600м"
+        },
+        {
+          "name": "Новус",
+          "walk_time": "12хв",
+          "distance": "700м"
+        }
+      ],
+      "hospitals": [
+        {
+          "name": "Поліклініка №3",
+          "walk_time": "12хв",
+          "distance": "700м"
+        },
+        {
+          "name": "Лікарня швидкої допомоги",
+          "walk_time": "8хв",
+          "distance": "500м"
+        }
+      ],
+      "parks": [
+        {
+          "name": "Парк Національного Відродження",
+          "walk_time": "20хв",
+          "distance": "1.2км"
+        },
+        {
+          "name": "Сквер ім. Тараса Шевченка",
+          "walk_time": "15хв",
+          "distance": "900м"
+        }
+      ],
+      "transport": [
+        {
+          "name": "зупинка Київська",
+          "walk_time": "3хв",
+          "distance": "180м"
+        },
+        {
+          "name": "зупинка Шкільна",
+          "walk_time": "7хв",
+          "distance": "400м"
+        }
+      ],
+      "parking": [
+        {
+          "name": "вул. Київська",
+          "walk_time": "1хв",
+          "distance": "50м"
+        },
+        {
+          "name": "вул. Шкільна",
+          "walk_time": "5хв",
+          "distance": "300м"
+        }
+      ]
+    },
+    "district_rating": {
+      "overall": 6.8,
+      "transport": 7.2,
+      "safety": 8.1,
+      "ecology": 7.5,
+      "infrastructure": 6.9,
+      "comfort": 7.3,
+      "reviews_count": 45
+    },
+    "coordinates": {
+      "lat": 49.5512,
+      "lng": 25.5949
+    },
+    "images": [
+      "./src/img/img1.webp",
+      "./src/img/img2.jpg",
+      "./src/img/img3.webp",
+      "./src/img/img4.jpg"
+    ],
+    "contacts": {
+      "phones": [
+        "(067) XXX XX XX"
+      ],
+      "chat_available": false
+    }
+  },
+  {
+    "id": 2,
+    "price": "74 500 $",
+    "price_hrn": "3 129 000 грн",
+    "price_per_m2": "1 180 $ за м²",
+    "price_per_m2_hrn": "49 560 грн за м²",
+    "address": "вул. Живова",
+    "city": "Тернопіль",
+    "district": "Центр",
+    "complex": "ЖК Центральний",
+    "rooms": 2,
+    "total_area": "63 м²",
+    "living_area": "38 м²",
+    "kitchen_area": "16 м²",
+    "floor": "6 з 10",
+    "total_floors": 10,
+    "property_type": "Новобудова",
+    "seller_type": "Перевірений рієлтор",
+    "building_type": "Керамоблок",
+    "build_year": "2023",
+    "walls": "Керамоблок",
+    "ceiling_height": "2.8 м",
+    "condition": "чернова",
+    "heating": "централізоване",
+    "water_heating": "централізований",
+    "bathroom": "роздільний санвузол",
+    "meters": [
+      "лічильник на електрику",
+      "лічильник на воду",
+      "лічильник на газ"
+    ],
+    "utilities": [
+      "електрика",
+      "газ",
+      "інтернет",
+      "каналізація"
+    ],
+    "entrance": "домофон, відеонагляд",
+    "furniture": "немає",
+    "yard_type": "закрита територія",
+    "balcony": true,
+    "internal_finish": "чернова",
+    "external_finish": "утеплений",
+    "insulation": "зовнішнє утеплення",
+    "ceilings_finish": "бетон",
+    "floor_finish": "стяжка",
+    "benefits": [
+      "Поруч центр",
+      "Вигідна ціна",
+      "Закрита територія"
+    ],
+    "commission": "Комісія 3%",
+    "description": "Сучасний ремонт, тепла підлога, простора кухня-студія. Поряд ринок та ТЦ.",
+    "full_description": "Квартира в новобудові класу комфорт. Можливість вибору планування та фінішної обробки. Будинок з закритою територією, дитячими майданчиками, спортивним комплексом. Централізоване опалення, всі комунікації підведені. Окремі кімнати, роздільний санвузол, лоджія. Можлива розстрочка від забудовника до кінця 2026 року. Розвинена інфраструктура: поруч торговий центр, ринок, парк.",
+    "verified": true,
+    "verified_date": "2 лис.",
+    "passport_provided": true,
+    "created": "19 лис. 2025",
+    "views": 9321,
+    "saved": 167,
+    "listing_id": "ID 33438757",
+    "realtor": {
+      "name": "Андрій",
+      "verified": true,
+      "online": false,
+      "last_seen": "40 хвилин тому",
+      "rating": 8.7,
+      "experience_years": 5,
+      "listings_sold": 42,
+      "avatar": "./src/img/img5.webp"
+    },
+    "building_info": {
+      "address": "вул. Живова, 8",
+      "build_year_range": "2023",
+      "external_walls": "керамоблок",
+      "entrances": 2,
+      "insulation": "зовнішнє утеплення",
+      "yard": "закрита територія",
+      "amenities": [
+        "Дитячий майданчик",
+        "Спортмайданчик",
+        "Паркінг",
+        "Відеонагляд",
+        "Консьєрж"
+      ]
+    },
+    "infrastructure": {
+      "education": [
+        {
+          "name": "Школа №4",
+          "walk_time": "8хв",
+          "distance": "480м"
+        },
+        {
+          "name": "Дитячий садок №7",
+          "walk_time": "5хв",
+          "distance": "300м"
+        },
+        {
+          "name": "Тернопільський педагогічний університет",
+          "walk_time": "15хв",
+          "distance": "900м"
+        }
+      ],
+      "kindergartens": [
+        {
+          "name": "Дитячий садок №7",
+          "walk_time": "5хв",
+          "distance": "300м"
+        },
+        {
+          "name": "Дитячий садок №3",
+          "walk_time": "8хв",
+          "distance": "500м"
+        }
+      ],
+      "schools": [
+        {
+          "name": "Школа №4",
+          "walk_time": "8хв",
+          "distance": "480м"
+        },
+        {
+          "name": "Ліцей №1",
+          "walk_time": "12хв",
+          "distance": "720м"
+        }
+      ],
+      "shops": [
+        {
+          "name": "ТРЦ Подоляни",
+          "walk_time": "10хв",
+          "distance": "600м"
+        },
+        {
+          "name": "Ринок Західний",
+          "walk_time": "7хв",
+          "distance": "420м"
+        },
+        {
+          "name": "АТБ-Маркет",
+          "walk_time": "5хв",
+          "distance": "300м"
+        }
+      ],
+      "hospitals": [
+        {
+          "name": "Міська лікарня",
+          "walk_time": "15хв",
+          "distance": "900м"
+        },
+        {
+          "name": "Стоматологічна поліклініка",
+          "walk_time": "8хв",
+          "distance": "480м"
+        }
+      ],
+      "parks": [
+        {
+          "name": "Парк Слави",
+          "walk_time": "12хв",
+          "distance": "720м"
+        },
+        {
+          "name": "Сквер ім. Івана Франка",
+          "walk_time": "8хв",
+          "distance": "480м"
+        }
+      ],
+      "transport": [
+        {
+          "name": "зупинка Центр",
+          "walk_time": "3хв",
+          "distance": "180м"
+        },
+        {
+          "name": "зупинка Живова",
+          "walk_time": "2хв",
+          "distance": "120м"
+        }
+      ],
+      "parking": [
+        {
+          "name": "вул. Живова",
+          "walk_time": "2хв",
+          "distance": "120м"
+        },
+        {
+          "name": "підземний паркінг",
+          "walk_time": "1хв",
+          "distance": "50м"
+        }
+      ]
+    },
+    "district_rating": {
+      "overall": 8.2,
+      "transport": 9.1,
+      "safety": 7.8,
+      "ecology": 6.5,
+      "infrastructure": 8.9,
+      "comfort": 8.4,
+      "reviews_count": 67
+    },
+    "coordinates": {
+      "lat": 49.5535,
+      "lng": 25.5902
+    },
+    "images": [
+      "./src/img/img5.webp",
+      "./src/img/img6.webp",
+      "./src/img/img7.webp"
+    ],
+    "contacts": {
+      "phones": [
+        "(067) XXX XX XX"
+      ],
+      "chat_available": true
+    }
+  },
+  {
+    "id": 3,
+    "price": "59 900 $",
+    "price_hrn": "2 515 800 грн",
+    "price_per_m2": "980 $ за м²",
+    "price_per_m2_hrn": "41 160 грн за м²",
+    "address": "вул. Лучаківського",
+    "city": "Тернопіль",
+    "district": "Східний",
+    "complex": "ЖК Східний Парк",
+    "rooms": 1,
+    "total_area": "61 м²",
+    "living_area": "32 м²",
+    "kitchen_area": "15 м²",
+    "floor": "9 з 14",
+    "total_floors": 14,
+    "property_type": "Вторинна нерухомість",
+    "seller_type": "Власник",
+    "building_type": "Панель",
+    "build_year": "1985",
+    "walls": "Панель",
+    "ceiling_height": "2.5 м",
+    "condition": "після ремонту",
+    "heating": "централізоване",
+    "water_heating": "централізований",
+    "bathroom": "суміжний санвузол",
+    "meters": [
+      "лічильник на електрику",
+      "лічильник на воду"
+    ],
+    "utilities": [
+      "електрика",
+      "газ"
+    ],
+    "entrance": "домофон",
+    "furniture": "немає",
+    "yard_type": "внутрішній двір",
+    "balcony": true,
+    "internal_finish": "після ремонту",
+    "external_finish": "обкладена цеглою",
+    "insulation": "без утеплення",
+    "ceilings_finish": "фарбування",
+    "floor_finish": "ламинат",
+    "benefits": [
+      "Вигідна ціна",
+      "Поруч парк",
+      "Свіжий ремонт"
+    ],
+    "commission": "Без комісії",
+    "description": "Квартира з якісним ремонтом, великою кухнею та гарним виглядом з вікна.",
+    "full_description": "Квартира в панельному будинку після повного капітального ремонту 2024 року. Замінено всі комунікації (електрика, водопровід, каналізація). Встановлено нові металопластикові вікна з енергозберігаючими склопакетами. Кухня 15 кв.м., простора, обладнана новою вбудованою технікою (холодильник, плита, витяжка). Санвузол суміжний, повністю відремонтований з новою сантехнікою. Вигляд з вікон на Східний парк та озеленену територію. Будинок обкладений цеглою, є домофон.",
+    "verified": true,
+    "verified_date": "5 лис.",
+    "passport_provided": true,
+    "created": "5 лис. 2025",
+    "views": 4218,
+    "saved": 94,
+    "listing_id": "ID 33438758",
+    "realtor": {
+      "name": "Марія",
+      "verified": false,
+      "online": false,
+      "last_seen": "2 години тому",
+      "rating": null,
+      "experience_years": null,
+      "listings_sold": null,
+      "avatar": "https://images.unsplash.com/photo-1507089947368-19c1da9775ae"
+    },
+    "building_info": {
+      "address": "вул. Лучаківського, 45",
+      "build_year_range": "1985",
+      "external_walls": "панель, обкладена цеглою",
+      "entrances": 4,
+      "insulation": "без утеплення",
+      "yard": "внутрішній двір",
+      "amenities": [
+        "Паркові зони",
+        "Дитячий майданчик",
+        "Місця для паркінгу"
+      ]
+    },
+    "infrastructure": {
+      "education": [
+        {
+          "name": "Школа №11",
+          "walk_time": "12хв",
+          "distance": "720м"
+        },
+        {
+          "name": "Дитячий садок №8",
+          "walk_time": "8хв",
+          "distance": "480м"
+        },
+        {
+          "name": "Тернопільський фаховий коледж",
+          "walk_time": "18хв",
+          "distance": "1.1км"
+        }
+      ],
+      "kindergartens": [
+        {
+          "name": "Дитячий садок №8",
+          "walk_time": "8хв",
+          "distance": "480м"
+        },
+        {
+          "name": "Дитячий садок №15",
+          "walk_time": "12хв",
+          "distance": "720м"
+        }
+      ],
+      "schools": [
+        {
+          "name": "Школа №11",
+          "walk_time": "12хв",
+          "distance": "720м"
+        },
+        {
+          "name": "Школа №22",
+          "walk_time": "15хв",
+          "distance": "900м"
+        }
+      ],
+      "shops": [
+        {
+          "name": "Продуктовий магазин Мрія",
+          "walk_time": "5хв",
+          "distance": "300м"
+        },
+        {
+          "name": "АТБ-Маркет",
+          "walk_time": "8хв",
+          "distance": "480м"
+        },
+        {
+          "name": "Фруктовий ринок",
+          "walk_time": "10хв",
+          "distance": "600м"
+        }
+      ],
+      "hospitals": [
+        {
+          "name": "Поліклініка №2",
+          "walk_time": "15хв",
+          "distance": "900м"
+        },
+        {
+          "name": "Стоматологія Стомат",
+          "walk_time": "10хв",
+          "distance": "600м"
+        }
+      ],
+      "parks": [
+        {
+          "name": "Східний парк",
+          "walk_time": "3хв",
+          "distance": "180м"
+        },
+        {
+          "name": "Парк Перемоги",
+          "walk_time": "20хв",
+          "distance": "1.2км"
+        }
+      ],
+      "transport": [
+        {
+          "name": "зупинка Лучаківського",
+          "walk_time": "4хв",
+          "distance": "240м"
+        },
+        {
+          "name": "зупинка Східна",
+          "walk_time": "6хв",
+          "distance": "360м"
+        }
+      ],
+      "parking": [
+        {
+          "name": "вул. Лучаківського",
+          "walk_time": "2хв",
+          "distance": "120м"
+        },
+        {
+          "name": "паркінг біля парку",
+          "walk_time": "5хв",
+          "distance": "300м"
+        }
+      ]
+    },
+    "district_rating": {
+      "overall": 6.5,
+      "transport": 6.2,
+      "safety": 7.1,
+      "ecology": 7.8,
+      "infrastructure": 5.9,
+      "comfort": 6.7,
+      "reviews_count": 32
+    },
+    "coordinates": {
+      "lat": 49.5581,
+      "lng": 25.6015
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae",
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858",
+      "https://images.unsplash.com/photo-1527030280862-64139fba04ca"
+    ],
+    "contacts": {
+      "phones": [
+        "(067) XXX XX XX"
+      ],
+      "chat_available": false
+    }
+  },
+  {
+    "id": 4,
+    "price": "103 000 $",
+    "price_hrn": "4 326 000 грн",
+    "price_per_m2": "1 350 $ за м²",
+    "price_per_m2_hrn": "56 700 грн за м²",
+    "address": "вул. Текстильна",
+    "city": "Тернопіль",
+    "district": "Новий Світ",
+    "complex": "ЖК Панорама",
+    "rooms": 3,
+    "total_area": "76 м²",
+    "living_area": "48 м²",
+    "kitchen_area": "13 м²",
+    "floor": "3 з 9",
+    "total_floors": 9,
+    "property_type": "Вторинна нерухомість",
+    "seller_type": "Власник",
+    "building_type": "Цегла",
+    "build_year": "2010",
+    "walls": "Цегла",
+    "ceiling_height": "2.7 м",
+    "condition": "потребує ремонту",
+    "heating": "централізоване",
+    "water_heating": "централізований",
+    "bathroom": "роздільний санвузол",
+    "meters": [
+      "лічильник на електрику",
+      "лічильник на газ",
+      "лічильник на воду"
+    ],
+    "utilities": [
+      "електрика",
+      "газ",
+      "інтернет",
+      "каналізація"
+    ],
+    "entrance": "домофон",
+    "furniture": "немає",
+    "yard_type": "оздоблений двір",
+    "balcony": true,
+    "internal_finish": "потребує ремонту",
+    "external_finish": "обкладена цеглою",
+    "insulation": "без утеплення",
+    "ceilings_finish": "фарбування",
+    "floor_finish": "паркет",
+    "benefits": [
+      "Поруч школа",
+      "Дитячий майданчик",
+      "Охайний під'їзд"
+    ],
+    "commission": "Без комісії",
+    "description": "Світла квартира з панорамними вікнами та окремими кімнатами. Поряд великий парк.",
+    "full_description": "Трьохкімнатна квартира в цегляному будинку 2010 року побудови. Панорамні вікна забезпечують відмінну освітленість протягом усього дня. Окремі кімнати: одна 18 кв.м., друга 15 кв.м., третя 15 кв.м. Роздільний санвузол (ванна кімната 6 кв.м., туалет 2 кв.м.). Кухня 13 кв.м. з виходом на лоджію 5 кв.м. Квартира потребує косметичного ремонту (демонтаж старих шпалер, заміна покриття підлоги, оновлення сантехніки). Будинок з озелененим двором, дитячим майданчиком, спортивним комплексом. Поряд великий парк, школа, дитячий садок.",
+    "verified": true,
+    "verified_date": "4 лис.",
+    "passport_provided": true,
+    "created": "14 жов. 2025",
+    "views": 15683,
+    "saved": 312,
+    "listing_id": "ID 33438759",
+    "realtor": {
+      "name": "Сергій",
+      "verified": false,
+      "online": false,
+      "last_seen": "5 годин тому",
+      "rating": null,
+      "experience_years": null,
+      "listings_sold": null,
+      "avatar": "https://images.unsplash.com/photo-1554995207-c18c203602cb"
+    },
+    "building_info": {
+      "address": "вул. Текстильна, 27Б",
+      "build_year_range": "2010",
+      "external_walls": "цегла",
+      "entrances": 2,
+      "insulation": "без утеплення",
+      "yard": "оздоблений двір",
+      "amenities": [
+        "Дитячий майданчик",
+        "Спортивний майданчик",
+        "Озеленення",
+        "Лавочки",
+        "Освітлення двору"
+      ]
+    },
+    "infrastructure": {
+      "education": [
+        {
+          "name": "Школа №17",
+          "walk_time": "8хв",
+          "distance": "480м"
+        },
+        {
+          "name": "Дитячий садок №14",
+          "walk_time": "5хв",
+          "distance": "300м"
+        },
+        {
+          "name": "Тернопільський медичний університет",
+          "walk_time": "20хв",
+          "distance": "1.2км"
+        }
+      ],
+      "kindergartens": [
+        {
+          "name": "Дитячий садок №14",
+          "walk_time": "5хв",
+          "distance": "300м"
+        },
+        {
+          "name": "Дитячий садок №9",
+          "walk_time": "10хв",
+          "distance": "600м"
+        }
+      ],
+      "schools": [
+        {
+          "name": "Школа №17",
+          "walk_time": "8хв",
+          "distance": "480м"
+        },
+        {
+          "name": "Школа №6",
+          "walk_time": "12хв",
+          "distance": "720м"
+        }
+      ],
+      "shops": [
+        {
+          "name": "Продуктовий магазин Світ",
+          "walk_time": "3хв",
+          "distance": "180м"
+        },
+        {
+          "name": "АТБ-Маркет",
+          "walk_time": "7хв",
+          "distance": "420м"
+        },
+        {
+          "name": "М'ясний магазин",
+          "walk_time": "5хв",
+          "distance": "300м"
+        }
+      ],
+      "hospitals": [
+        {
+          "name": "Поліклініка №5",
+          "walk_time": "12хв",
+          "distance": "720м"
+        },
+        {
+          "name": "Аптека Мед-сервіс",
+          "walk_time": "8хв",
+          "distance": "480м"
+        }
+      ],
+      "parks": [
+        {
+          "name": "Великий парк Новий Світ",
+          "walk_time": "2хв",
+          "distance": "120м"
+        },
+        {
+          "name": "Сквер Дружби",
+          "walk_time": "10хв",
+          "distance": "600м"
+        }
+      ],
+      "transport": [
+        {
+          "name": "зупинка Текстильна",
+          "walk_time": "4хв",
+          "distance": "240м"
+        },
+        {
+          "name": "зупинка Новий Світ",
+          "walk_time": "6хв",
+          "distance": "360м"
+        }
+      ],
+      "parking": [
+        {
+          "name": "вул. Текстильна",
+          "walk_time": "1хв",
+          "distance": "60м"
+        },
+        {
+          "name": "паркінг біля парку",
+          "walk_time": "3хв",
+          "distance": "180м"
+        }
+      ]
+    },
+    "district_rating": {
+      "overall": 7.1,
+      "transport": 6.8,
+      "safety": 7.5,
+      "ecology": 7.9,
+      "infrastructure": 7.2,
+      "comfort": 7.3,
+      "reviews_count": 41
+    },
+    "coordinates": {
+      "lat": 49.5453,
+      "lng": 25.5798
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1554995207-c18c203602cb",
+      "https://images.unsplash.com/photo-1503174971373-b1f69850bded",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+      "https://images.unsplash.com/photo-1600585154206-7d1a5d2b51c7"
+    ],
+    "contacts": {
+      "phones": [
+        "(067) XXX XX XX"
+      ],
+      "chat_available": false
+    }
+  },
+  {
+    "id": 5,
+    "price": "92 800 $",
+    "price_hrn": "3 897 600 грн",
+    "price_per_m2": "1 220 $ за м²",
+    "price_per_m2_hrn": "51 240 грн за м²",
+    "address": "вул. Бандери",
+    "city": "Тернопіль",
+    "district": "Центр",
+    "complex": "ЖК Класік",
+    "rooms": 3,
+    "total_area": "76 м²",
+    "living_area": "50 м²",
+    "kitchen_area": "14 м²",
+    "floor": "7 з 12",
+    "total_floors": 12,
+    "property_type": "Вторинна нерухомість",
+    "seller_type": "Рієлтор",
+    "building_type": "Моноліт",
+    "build_year": "2018",
+    "walls": "Моноліт",
+    "ceiling_height": "2.8 м",
+    "condition": "після ремонту",
+    "heating": "індивідуальне",
+    "water_heating": "бойлер",
+    "bathroom": "роздільний санвузол",
+    "meters": [
+      "лічильник на електрику",
+      "лічильник на воду",
+      "лічильник на газ"
+    ],
+    "utilities": [
+      "електрика",
+      "газ",
+      "інтернет",
+      "кондиціонер"
+    ],
+    "entrance": "домофон, відеонагляд, консьєрж",
+    "furniture": "частково",
+    "yard_type": "закрита територія",
+    "balcony": true,
+    "internal_finish": "після ремонту",
+    "external_finish": "утеплений",
+    "insulation": "зовнішнє утеплення",
+    "ceilings_finish": "натяжні стелі",
+    "floor_finish": "паркетна дошка",
+    "benefits": [
+      "Поруч центр",
+      "Закрита територія",
+      "Підземний паркінг"
+    ],
+    "commission": "Комісія 2%",
+    "description": "Квартира з індивідуальним опаленням, 2 санвузли, сучасна кухня.",
+    "full_description": "Трьохкімнатна квартира в монолітному будинку преміум-класу. Повний євроремонт 2023 року. Індивідуальне опалення (котел), що дозволяє регулювати температуру та економити. Два санвузли: головний з душовою кабіною та джакузі, гостєвий з унітазом та умивальником. Кухня-студія 14 кв.м. з островом та вбудованою технікою преміум-класу. Вікна панорамні, з енергозберігаючими склопакетами. Кондиціонер у кожній кімнаті. Підлога з паркетної дошки в кімнатах, плитка в санвузлах та кухні. Будинок з закритою територією, підземним паркінгом, консьєржем.",
+    "verified": true,
+    "verified_date": "3 лис.",
+    "passport_provided": true,
+    "created": "2 лис. 2025",
+    "views": 8932,
+    "saved": 201,
+    "listing_id": "ID 33438760",
+    "realtor": {
+      "name": "Наталія",
+      "verified": true,
+      "online": true,
+      "last_seen": "1 годину тому",
+      "rating": 9.2,
+      "experience_years": 7,
+      "listings_sold": 89,
+      "avatar": "https://images.unsplash.com/photo-1505691938895-1758d7feb511"
+    },
+    "building_info": {
+      "address": "вул. Бандери, 12",
+      "build_year_range": "2018",
+      "external_walls": "моноліт",
+      "entrances": 3,
+      "insulation": "зовнішнє утеплення",
+      "yard": "закрита територія",
+      "amenities": [
+        "Підземний паркінг",
+        "Консьєрж",
+        "Відеонагляд",
+        "Дитячий майданчик",
+        "Фітнес-центр",
+        "Сауна"
+      ]
+    },
+    "infrastructure": {
+      "education": [
+        {
+          "name": "Школа №1",
+          "walk_time": "10хв",
+          "distance": "600м"
+        },
+        {
+          "name": "Дитячий садок №2",
+          "walk_time": "8хв",
+          "distance": "480м"
+        },
+        {
+          "name": "Тернопільський національний економічний університет",
+          "walk_time": "15хв",
+          "distance": "900м"
+        }
+      ],
+      "kindergartens": [
+        {
+          "name": "Дитячий садок №2",
+          "walk_time": "8хв",
+          "distance": "480м"
+        },
+        {
+          "name": "Дитячий садок №6",
+          "walk_time": "12хв",
+          "distance": "720м"
+        }
+      ],
+      "schools": [
+        {
+          "name": "Школа №1",
+          "walk_time": "10хв",
+          "distance": "600м"
+        },
+        {
+          "name": "Ліцей наук точних",
+          "walk_time": "14хв",
+          "distance": "840м"
+        }
+      ],
+      "shops": [
+        {
+          "name": "ТРЦ Галерія",
+          "walk_time": "8хв",
+          "distance": "480м"
+        },
+        {
+          "name": "Сільпо",
+          "walk_time": "5хв",
+          "distance": "300м"
+        },
+        {
+          "name": "Ринок Центральний",
+          "walk_time": "12хв",
+          "distance": "720м"
+        }
+      ],
+      "hospitals": [
+        {
+          "name": "Обласна лікарня",
+          "walk_time": "18хв",
+          "distance": "1.1км"
+        },
+        {
+          "name": "Стоматологічна клініка Дентіс",
+          "walk_time": "10хв",
+          "distance": "600м"
+        }
+      ],
+      "parks": [
+        {
+          "name": "Парк ім. Тараса Шевченка",
+          "walk_time": "15хв",
+          "distance": "900м"
+        },
+        {
+          "name": "Сквер Бандери",
+          "walk_time": "5хв",
+          "distance": "300м"
+        }
+      ],
+      "transport": [
+        {
+          "name": "зупинка Центр",
+          "walk_time": "3хв",
+          "distance": "180м"
+        },
+        {
+          "name": "зупинка Бандери",
+          "walk_time": "2хв",
+          "distance": "120м"
+        }
+      ],
+      "parking": [
+        {
+          "name": "підземний паркінг",
+          "walk_time": "1хв",
+          "distance": "50м"
+        },
+        {
+          "name": "вул. Бандери",
+          "walk_time": "2хв",
+          "distance": "120м"
+        }
+      ]
+    },
+    "district_rating": {
+      "overall": 8.5,
+      "transport": 9.3,
+      "safety": 8.1,
+      "ecology": 6.8,
+      "infrastructure": 9.0,
+      "comfort": 8.7,
+      "reviews_count": 78
+    },
+    "coordinates": {
+      "lat": 49.5509,
+      "lng": 25.5887
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511",
+      "https://images.unsplash.com/photo-1520881363902-a0ff4e722963",
+      "https://images.unsplash.com/photo-1486304873000-235643847519",
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c"
+    ],
+    "contacts": {
+      "phones": [
+        "(067) XXX XX XX",
+        "(095) XXX XX XX"
+      ],
+      "chat_available": true
+    }
+  },
+  {
+    "id": 6,
+    "price": "47 000 $",
+    "price_hrn": "1 974 000 грн",
+    "price_per_m2": "860 $ за м²",
+    "price_per_m2_hrn": "36 120 грн за м²",
+    "address": "вул. Лесі Українки",
+    "city": "Тернопіль",
+    "district": "Сонячний",
+    "complex": "ЖК Сонячний",
+    "rooms": 1,
+    "total_area": "54 м²",
+    "living_area": "28 м²",
+    "kitchen_area": "12 м²",
+    "floor": "5 з 9",
+    "total_floors": 9,
+    "property_type": "Вторинна нерухомість",
+    "seller_type": "Власник",
+    "building_type": "Панель",
+    "build_year": "1992",
+    "walls": "Панель",
+    "ceiling_height": "2.5 м",
+    "condition": "після ремонту",
+    "heating": "централізоване",
+    "water_heating": "централізований",
+    "bathroom": "суміжний санвузол",
+    "meters": [
+      "лічильник на електрику",
+      "лічильник на воду"
+    ],
+    "utilities": [
+      "електрика",
+      "газ",
+      "інтернет"
+    ],
+    "entrance": "домофон",
+    "furniture": "повністю мебльована",
+    "yard_type": "оздоблений двір",
+    "balcony": true,
+    "internal_finish": "після ремонту",
+    "external_finish": "утеплений",
+    "insulation": "зовнішнє утеплення",
+    "ceilings_finish": "фарбування",
+    "floor_finish": "ламинат",
+    "benefits": [
+      "Вигідна ціна",
+      "Поруч зупинка",
+      "Оперативний показ"
+    ],
+    "commission": "Без комісії",
+    "description": "Гарний варіант під оренду. Мінімалістичний сучасний ремонт.",
+    "full_description": "Однокімнатна квартира в панельному будинку після повного ремонту 2024 року. Мінімалістичний дизайн у стилі лофт. Кухня-ніша 12 кв.м. з новою вбудованою технікою (холодильник, плита, витяжка, мікрохвильовка). Кімната 28 кв.м. з зоною відпочинку та робочою зоною. Санвузол суміжний, повністю відремонтований з новою сантехнікою. Лоджія засклена та утеплена. Вся меблі залишаються: ліжко, шафа, диван, обідній стіл, стільці, тумби. Вся техніка також залишається: телевізор, пральна машина, кондиціонер. Ідеально підходить для оренди або першого власного житла.",
+    "verified": true,
+    "verified_date": "1 лис.",
+    "passport_provided": true,
+    "created": "30 жов. 2025",
+    "views": 22153,
+    "saved": 487,
+    "listing_id": "ID 33438761",
+    "realtor": {
+      "name": "Ігор",
+      "verified": false,
+      "online": false,
+      "last_seen": "7 годин тому",
+      "rating": null,
+      "experience_years": null,
+      "listings_sold": null,
+      "avatar": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
+    },
+    "building_info": {
+      "address": "вул. Лесі Українки, 33",
+      "build_year_range": "1992",
+      "external_walls": "панель",
+      "entrances": 4,
+      "insulation": "зовнішнє утеплення",
+      "yard": "оздоблений двір",
+      "amenities": [
+        "Дитячий майданчик",
+        "Спортивний майданчик",
+        "Місця для паркінгу",
+        "Озеленення"
+      ]
+    },
+    "infrastructure": {
+      "education": [
+        {
+          "name": "Школа №13",
+          "walk_time": "10хв",
+          "distance": "600м"
+        },
+        {
+          "name": "Дитячий садок №11",
+          "walk_time": "7хв",
+          "distance": "420м"
+        },
+        {
+          "name": "Тернопільський фаховий коледж технологій та дизайну",
+          "walk_time": "20хв",
+          "distance": "1.2км"
+        }
+      ],
+      "kindergartens": [
+        {
+          "name": "Дитячий садок №11",
+          "walk_time": "7хв",
+          "distance": "420м"
+        },
+        {
+          "name": "Дитячий садок №4",
+          "walk_time": "12хв",
+          "distance": "720м"
+        }
+      ],
+      "schools": [
+        {
+          "name": "Школа №13",
+          "walk_time": "10хв",
+          "distance": "600м"
+        },
+        {
+          "name": "Школа №19",
+          "walk_time": "15хв",
+          "distance": "900м"
+        }
+      ],
+      "shops": [
+        {
+          "name": "АТБ-Маркет",
+          "walk_time": "5хв",
+          "distance": "300м"
+        },
+        {
+          "name": "Новус",
+          "walk_time": "8хв",
+          "distance": "480м"
+        },
+        {
+          "name": "Продуктовий магазин Сонячний",
+          "walk_time": "3хв",
+          "distance": "180м"
+        }
+      ],
+      "hospitals": [
+        {
+          "name": "Поліклініка №4",
+          "walk_time": "12хв",
+          "distance": "720м"
+        },
+        {
+          "name": "Аптека Аптекарь",
+          "walk_time": "6хв",
+          "distance": "360м"
+        }
+      ],
+      "parks": [
+        {
+          "name": "Парк Сонячний",
+          "walk_time": "8хв",
+          "distance": "480м"
+        },
+        {
+          "name": "Сквер Лесі Українки",
+          "walk_time": "4хв",
+          "distance": "240м"
+        }
+      ],
+      "transport": [
+        {
+          "name": "зупинка Лесі Українки",
+          "walk_time": "2хв",
+          "distance": "120м"
+        },
+        {
+          "name": "зупинка Сонячна",
+          "walk_time": "5хв",
+          "distance": "300м"
+        }
+      ],
+      "parking": [
+        {
+          "name": "вул. Лесі Українки",
+          "walk_time": "1хв",
+          "distance": "60м"
+        },
+        {
+          "name": "паркінг біля магазину",
+          "walk_time": "3хв",
+          "distance": "180м"
+        }
+      ]
+    },
+    "district_rating": {
+      "overall": 7.3,
+      "transport": 7.8,
+      "safety": 7.5,
+      "ecology": 7.2,
+      "infrastructure": 7.6,
+      "comfort": 7.4,
+      "reviews_count": 56
+    },
+    "coordinates": {
+      "lat": 49.5467,
+      "lng": 25.5952
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+      "https://images.unsplash.com/photo-1519710164239-da123dc03ef4",
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511"
+    ],
+    "contacts": {
+      "phones": [
+        "(067) XXX XX XX"
+      ],
+      "chat_available": false
+    }
+  },
+  {
+    "id": 7,
+    "price": "68 300 $",
+    "price_hrn": "2 868 600 грн",
+    "price_per_m2": "1 050 $ за м²",
+    "price_per_m2_hrn": "44 100 грн за м²",
+    "address": "вул. Злуки",
+    "city": "Тернопіль",
+    "district": "Дружба",
+    "complex": "ЖК Озерний",
+    "rooms": 2,
+    "total_area": "65 м²",
+    "living_area": "40 м²",
+    "kitchen_area": "18 м²",
+    "floor": "10 з 16",
+    "total_floors": 16,
+    "property_type": "Вторинна нерухомість",
+    "seller_type": "Власник",
+    "building_type": "Цегла",
+    "build_year": "2015",
+    "walls": "Цегла",
+    "ceiling_height": "2.7 м",
+    "condition": "після ремонту",
+    "heating": "централізоване",
+    "water_heating": "бойлер",
+    "bathroom": "роздільний санвузол",
+    "meters": [
+      "лічильник на електрику",
+      "лічильник на воду",
+      "лічильник на газ"
+    ],
+    "utilities": [
+      "електрика",
+      "газ",
+      "інтернет",
+      "кондиціонер"
+    ],
+    "entrance": "домофон, відеонагляд",
+    "furniture": "частково",
+    "yard_type": "оздоблений двір",
+    "balcony": true,
+    "internal_finish": "після ремонту",
+    "external_finish": "утеплений",
+    "insulation": "зовнішнє утеплення",
+    "ceilings_finish": "натяжні стелі",
+    "floor_finish": "ламинат",
+    "benefits": [
+      "Вид на озеро",
+      "Спокійний район",
+      "Дитячий майданчик"
+    ],
+    "commission": "Без комісії",
+    "description": "Велика кухня-студія, панорамні вікна, вигляд на озеро.",
+    "full_description": "Двокімнатна квартира з панорамним видом на озеро. 10 поверх з 16, що забезпечує чудовий огляд та багато сонячного світла. Кухня-студія 18 кв.м. з барною стійкою та вбудованою технікою. Дві окремі кімнати: одна 16 кв.м., друга 14 кв.м. Роздільний санвузол (ванна кімната 5 кв.м., туалет 2 кв.м.). Лоджія засклена та утеплена, вигляд на озеро та паркову зону. Повний євроремонт 2023 року. Встановлено кондиціонер у вітальні. Будинок знаходиться на березі озера, територія озеленена, є дитячий та спортивний майданчики.",
+    "verified": true,
+    "verified_date": "4 лис.",
+    "passport_provided": true,
+    "created": "8 лис. 2025",
+    "views": 12481,
+    "saved": 198,
+    "listing_id": "ID 33438762",
+    "realtor": {
+      "name": "Вікторія",
+      "verified": false,
+      "online": false,
+      "last_seen": "4 години тому",
+      "rating": null,
+      "experience_years": null,
+      "listings_sold": null,
+      "avatar": "https://images.unsplash.com/photo-1507089947368-19c1da9775ae"
+    },
+    "building_info": {
+      "address": "вул. Злуки, 5А",
+      "build_year_range": "2015",
+      "external_walls": "цегла",
+      "entrances": 3,
+      "insulation": "зовнішнє утеплення",
+      "yard": "оздоблений двір",
+      "amenities": [
+        "Вид на озеро",
+        "Дитячий майданчик",
+        "Спортивний майданчик",
+        "Прогулянкова зона",
+        "Місця для відпочинку"
+      ]
+    },
+    "infrastructure": {
+      "education": [
+        {
+          "name": "Школа №21",
+          "walk_time": "12хв",
+          "distance": "720м"
+        },
+        {
+          "name": "Дитячий садок №18",
+          "walk_time": "8хв",
+          "distance": "480м"
+        },
+        {
+          "name": "Тернопільський фаховий коледж культури",
+          "walk_time": "25хв",
+          "distance": "1.5км"
+        }
+      ],
+      "kindergartens": [
+        {
+          "name": "Дитячий садок №18",
+          "walk_time": "8хв",
+          "distance": "480м"
+        },
+        {
+          "name": "Дитячий садок №10",
+          "walk_time": "15хв",
+          "distance": "900м"
+        }
+      ],
+      "schools": [
+        {
+          "name": "Школа №21",
+          "walk_time": "12хв",
+          "distance": "720м"
+        },
+        {
+          "name": "Школа №7",
+          "walk_time": "18хв",
+          "distance": "1.1км"
+        }
+      ],
+      "shops": [
+        {
+          "name": "АТБ-Маркет",
+          "walk_time": "10хв",
+          "distance": "600м"
+        },
+        {
+          "name": "Продуктовий магазин Озерний",
+          "walk_time": "5хв",
+          "distance": "300м"
+        },
+        {
+          "name": "Кав'ярня Лагуна",
+          "walk_time": "8хв",
+          "distance": "480м"
+        }
+      ],
+      "hospitals": [
+        {
+          "name": "Поліклініка №6",
+          "walk_time": "15хв",
+          "distance": "900м"
+        },
+        {
+          "name": "Аптека Озерна",
+          "walk_time": "7хв",
+          "distance": "420м"
+        }
+      ],
+      "parks": [
+        {
+          "name": "Озеро",
+          "walk_time": "2хв",
+          "distance": "120м"
+        },
+        {
+          "name": "Парк Дружби",
+          "walk_time": "10хв",
+          "distance": "600м"
+        }
+      ],
+      "transport": [
+        {
+          "name": "зупинка Злуки",
+          "walk_time": "6хв",
+          "distance": "360м"
+        },
+        {
+          "name": "зупинка Озерна",
+          "walk_time": "8хв",
+          "distance": "480м"
+        }
+      ],
+      "parking": [
+        {
+          "name": "вул. Злуки",
+          "walk_time": "3хв",
+          "distance": "180м"
+        },
+        {
+          "name": "паркінг біля озера",
+          "walk_time": "5хв",
+          "distance": "300м"
+        }
+      ]
+    },
+    "district_rating": {
+      "overall": 7.8,
+      "transport": 6.9,
+      "safety": 8.2,
+      "ecology": 8.5,
+      "infrastructure": 7.1,
+      "comfort": 8.0,
+      "reviews_count": 63
+    },
+    "coordinates": {
+      "lat": 49.5432,
+      "lng": 25.6105
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae",
+      "https://images.unsplash.com/photo-1550583724-b2692b85b150",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750"
+    ],
+    "contacts": {
+      "phones": [
+        "(067) XXX XX XX"
+      ],
+      "chat_available": false
+    }
+  },
+  {
+    "id": 8,
+    "price": "83 600 $",
+    "price_hrn": "3 511 200 грн",
+    "price_per_m2": "1 310 $ за м²",
+    "price_per_m2_hrn": "55 020 грн за м²",
+    "address": "вул. Протасевича",
+    "city": "Тернопіль",
+    "district": "Східний",
+    "complex": "ЖК Парковий",
+    "rooms": 2,
+    "total_area": "64 м²",
+    "living_area": "39 м²",
+    "kitchen_area": "13 м²",
+    "floor": "8 з 11",
+    "total_floors": 11,
+    "property_type": "Вторинна нерухомість",
+    "seller_type": "Власник",
+    "building_type": "Керамоблок",
+    "build_year": "2017",
+    "walls": "Керамоблок",
+    "ceiling_height": "2.8 м",
+    "condition": "після ремонту",
+    "heating": "індивідуальне",
+    "water_heating": "бойлер",
+    "bathroom": "роздільний санвузол",
+    "meters": [
+      "лічильник на електрику",
+      "лічильник на воду",
+      "лічильник на газ"
+    ],
+    "utilities": [
+      "електрика",
+      "газ",
+      "інтернет",
+      "теплі підлоги"
+    ],
+    "entrance": "домофон, відеонагляд",
+    "furniture": "немає",
+    "yard_type": "паркова зона",
+    "balcony": true,
+    "internal_finish": "після ремонту",
+    "external_finish": "утеплений",
+    "insulation": "зовнішнє утеплення",
+    "ceilings_finish": "натяжні стелі",
+    "floor_finish": "ламинат",
+    "benefits": [
+      "Поруч парк",
+      "Охайний під'їзд",
+      "Тепла підлога"
+    ],
+    "commission": "Без комісії",
+    "description": "Роздільні кімнати, лоджія, тепла підлога, якісний ремонт.",
+    "full_description": "Двокімнатна квартира в будинку з керамоблоку. Ремонт 2025 року - все абсолютно нове. Роздільні кімнати: одна 16 кв.м., друга 15 кв.м. Кухня 13 кв.м. з виходом на лоджію 4 кв.м. Роздільний санвузол (ванна кімната 5 кв.м. з душовою кабіною, туалет 2 кв.м.). Тепла підлога у ванній кімнаті, туалеті та кухні. Встановлено індивідуальне опалення (газовий котел), що дозволяє економити в опалювальний сезон. Вікна металопластикові, трискляні. Кухонний гарнітур новий, техніка не вбудована (потрібно докуповувати). Будинок розташований біля великого парку, територія озеленена.",
+    "verified": true,
+    "verified_date": "4 лис.",
+    "passport_provided": true,
+    "created": "10 лис. 2025",
+    "views": 9876,
+    "saved": 176,
+    "listing_id": "ID 33438763",
+    "realtor": {
+      "name": "Дмитро",
+      "verified": false,
+      "online": false,
+      "last_seen": "2 години тому",
+      "rating": null,
+      "experience_years": null,
+      "listings_sold": null,
+      "avatar": "https://images.unsplash.com/photo-1598928506311-c55ded91a20c"
+    },
+    "building_info": {
+      "address": "вул. Протасевича, 28",
+      "build_year_range": "2017",
+      "external_walls": "керамоблок",
+      "entrances": 2,
+      "insulation": "зовнішнє утеплення",
+      "yard": "паркова зона",
+      "amenities": [
+        "Паркова зона",
+        "Дитячий майданчик",
+        "Місця для паркінгу",
+        "Відеонагляд",
+        "Освітлення території"
+      ]
+    },
+    "infrastructure": {
+      "education": [
+        {
+          "name": "Школа №14",
+          "walk_time": "10хв",
+          "distance": "600м"
+        },
+        {
+          "name": "Дитячий садок №13",
+          "walk_time": "7хв",
+          "distance": "420м"
+        },
+        {
+          "name": "Тернопільський фаховий коледж транспорту",
+          "walk_time": "22хв",
+          "distance": "1.3км"
+        }
+      ],
+      "kindergartens": [
+        {
+          "name": "Дитячий садок №13",
+          "walk_time": "7хв",
+          "distance": "420м"
+        },
+        {
+          "name": "Дитячий садок №16",
+          "walk_time": "12хв",
+          "distance": "720м"
+        }
+      ],
+      "schools": [
+        {
+          "name": "Школа №14",
+          "walk_time": "10хв",
+          "distance": "600м"
+        },
+        {
+          "name": "Школа №20",
+          "walk_time": "15хв",
+          "distance": "900м"
+        }
+      ],
+      "shops": [
+        {
+          "name": "АТБ-Маркет",
+          "walk_time": "8хв",
+          "distance": "480м"
+        },
+        {
+          "name": "Продуктовий магазин Парковий",
+          "walk_time": "4хв",
+          "distance": "240м"
+        },
+        {
+          "name": "Пекарня",
+          "walk_time": "6хв",
+          "distance": "360м"
+        }
+      ],
+      "hospitals": [
+        {
+          "name": "Поліклініка №3",
+          "walk_time": "14хв",
+          "distance": "840м"
+        },
+        {
+          "name": "Аптека Здоров'я",
+          "walk_time": "9хв",
+          "distance": "540м"
+        }
+      ],
+      "parks": [
+        {
+          "name": "Парк Протасевича",
+          "walk_time": "3хв",
+          "distance": "180м"
+        },
+        {
+          "name": "Сквер Східний",
+          "walk_time": "10хв",
+          "distance": "600м"
+        }
+      ],
+      "transport": [
+        {
+          "name": "зупинка Протасевича",
+          "walk_time": "5хв",
+          "distance": "300м"
+        },
+        {
+          "name": "зупинка Паркова",
+          "walk_time": "7хв",
+          "distance": "420м"
+        }
+      ],
+      "parking": [
+        {
+          "name": "вул. Протасевича",
+          "walk_time": "2хв",
+          "distance": "120м"
+        },
+        {
+          "name": "паркінг біля парку",
+          "walk_time": "4хв",
+          "distance": "240м"
+        }
+      ]
+    },
+    "district_rating": {
+      "overall": 7.2,
+      "transport": 6.5,
+      "safety": 7.8,
+      "ecology": 8.1,
+      "infrastructure": 6.9,
+      "comfort": 7.5,
+      "reviews_count": 48
+    },
+    "coordinates": {
+      "lat": 49.5568,
+      "lng": 25.6043
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c",
+      "https://images.unsplash.com/photo-1527030280862-64139fba04ca",
+      "https://images.unsplash.com/photo-1485546246426-74dc88dec4d9",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750"
+    ],
+    "contacts": {
+      "phones": [
+        "(067) XXX XX XX"
+      ],
+      "chat_available": false
+    }
+  },
+  {
+    "id": 9,
+    "price": "115 000 $",
+    "price_hrn": "4 830 000 грн",
+    "price_per_m2": "1 420 $ за м²",
+    "price_per_m2_hrn": "59 640 грн за м²",
+    "address": "вул. Пирогова",
+    "city": "Тернопіль",
+    "district": "Центр",
+    "complex": "ЖК Вишневий",
+    "rooms": 3,
+    "total_area": "81 м²",
+    "living_area": "55 м²",
+    "kitchen_area": "16 м²",
+    "floor": "2 з 9",
+    "total_floors": 9,
+    "property_type": "Новобудова",
+    "seller_type": "Рієлтор",
+    "building_type": "Цегла",
+    "build_year": "2024",
+    "walls": "Цегла",
+    "ceiling_height": "2.9 м",
+    "condition": "після ремонту",
+    "heating": "індивідуальне",
+    "water_heating": "бойлер",
+    "bathroom": "роздільний санвузол",
+    "meters": [
+      "лічильник на електрику",
+      "лічильник на воду",
+      "лічильник на газ"
+    ],
+    "utilities": [
+      "електрика",
+      "газ",
+      "інтернет",
+      "кондиціонер",
+      "сигналізація"
+    ],
+    "entrance": "домофон, відеонагляд, консьєрж",
+    "furniture": "вбудовані меблі",
+    "yard_type": "закрита територія",
+    "balcony": true,
+    "internal_finish": "після ремонту",
+    "external_finish": "утеплений",
+    "insulation": "зовнішнє утеплення",
+    "ceilings_finish": "натяжні стелі з підсвіткою",
+    "floor_finish": "паркетна дошка",
+    "benefits": [
+      "Закрита територія",
+      "Підземний паркінг",
+      "Консьєрж"
+    ],
+    "commission": "Комісія 3%",
+    "description": "Елітний ремонт, вбудовані меблі, охорона, закрита територія.",
+    "full_description": "Трьохкімнатна квартира преміум-класу в елітному житловому комплексі. Дизайнерський ремонт 2024 року. Вбудовані меблі італійського виробництва в усіх кімнатах. Кухня 16 кв.м. з островом та технікою Gaggenau. Три окремі кімнати: головна спальня 20 кв.м. з гардеробною, друга спальня 18 кв.м., кабінет 17 кв.м. Два санвузли: головний з ванною та душовою кабіною, гостєвий з туалетом та умивальником. Тепла підлога у всіх санвузлах та кухні. Кондиціонери в кожній кімнаті. Система \"розумний дім\". Будинок з закритою територією, підземним паркінгом, консьєржем, фітнес-центром.",
+    "verified": true,
+    "verified_date": "5 лис.",
+    "passport_provided": true,
+    "created": "15 лис. 2025",
+    "views": 5432,
+    "saved": 89,
+    "listing_id": "ID 33438764",
+    "realtor": {
+      "name": "Олександр",
+      "verified": true,
+      "online": true,
+      "last_seen": "15 хвилин тому",
+      "rating": 9.5,
+      "experience_years": 8,
+      "listings_sold": 112,
+      "avatar": "https://images.unsplash.com/photo-1484154218962-a197022b5858"
+    },
+    "building_info": {
+      "address": "вул. Пирогова, 7",
+      "build_year_range": "2024",
+      "external_walls": "цегла",
+      "entrances": 1,
+      "insulation": "зовнішнє утеплення",
+      "yard": "закрита територія",
+      "amenities": [
+        "Підземний паркінг",
+        "Консьєрж",
+        "Фітнес-центр",
+        "Сауна",
+        "Басейн",
+        "Дитяча кімната",
+        "Відеонагляд",
+        "Охорона 24/7"
+      ]
+    },
+    "infrastructure": {
+      "education": [
+        {
+          "name": "Ліцей №3",
+          "walk_time": "8хв",
+          "distance": "480м"
+        },
+        {
+          "name": "Дитячий садок №1",
+          "walk_time": "5хв",
+          "distance": "300м"
+        },
+        {
+          "name": "Тернопільський національний університет",
+          "walk_time": "12хв",
+          "distance": "720м"
+        }
+      ],
+      "kindergartens": [
+        {
+          "name": "Дитячий садок №1",
+          "walk_time": "5хв",
+          "distance": "300м"
+        },
+        {
+          "name": "Приватний садок Малюк",
+          "walk_time": "10хв",
+          "distance": "600м"
+        }
+      ],
+      "schools": [
+        {
+          "name": "Ліцей №3",
+          "walk_time": "8хв",
+          "distance": "480м"
+        },
+        {
+          "name": "Гімназія №2",
+          "walk_time": "12хв",
+          "distance": "720м"
+        }
+      ],
+      "shops": [
+        {
+          "name": "ТРЦ Подоляни",
+          "walk_time": "7хв",
+          "distance": "420м"
+        },
+        {
+          "name": "Сільпо преміум",
+          "walk_time": "5хв",
+          "distance": "300м"
+        },
+        {
+          "name": "Бутик вина",
+          "walk_time": "8хв",
+          "distance": "480м"
+        }
+      ],
+      "hospitals": [
+        {
+          "name": "Обласна лікарня",
+          "walk_time": "10хв",
+          "distance": "600м"
+        },
+        {
+          "name": "Приватна клініка Медікал Плаза",
+          "walk_time": "8хв",
+          "distance": "480м"
+        }
+      ],
+      "parks": [
+        {
+          "name": "Парк ім. Тараса Шевченка",
+          "walk_time": "10хв",
+          "distance": "600м"
+        },
+        {
+          "name": "Сквер Вишневий",
+          "walk_time": "3хв",
+          "distance": "180м"
+        }
+      ],
+      "transport": [
+        {
+          "name": "зупинка Центр",
+          "walk_time": "4хв",
+          "distance": "240м"
+        },
+        {
+          "name": "зупинка Пирогова",
+          "walk_time": "2хв",
+          "distance": "120м"
+        }
+      ],
+      "parking": [
+        {
+          "name": "підземний паркінг",
+          "walk_time": "1хв",
+          "distance": "50м"
+        },
+        {
+          "name": "вул. Пирогова",
+          "walk_time": "3хв",
+          "distance": "180м"
+        }
+      ]
+    },
+    "district_rating": {
+      "overall": 8.9,
+      "transport": 9.2,
+      "safety": 8.7,
+      "ecology": 7.5,
+      "infrastructure": 9.1,
+      "comfort": 9.0,
+      "reviews_count": 92
+    },
+    "coordinates": {
+      "lat": 49.5528,
+      "lng": 25.5873
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858",
+      "https://images.unsplash.com/photo-1600585154206-7d1a5d2b51c7",
+      "https://images.unsplash.com/photo-1600585153833-8328e52a7a71",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7"
+    ],
+    "contacts": {
+      "phones": [
+        "(067) XXX XX XX",
+        "(063) XXX XX XX"
+      ],
+      "chat_available": true
+    }
+  },
+  {
+    "id": 10,
+    "price": "52 900 $",
+    "price_hrn": "2 221 800 грн",
+    "price_per_m2": "900 $ за м²",
+    "price_per_m2_hrn": "37 800 грн за м²",
+    "address": "вул. Карпенка",
+    "city": "Тернопіль",
+    "district": "Канада",
+    "complex": "ЖК Терраса",
+    "rooms": 1,
+    "total_area": "59 м²",
+    "living_area": "30 м²",
+    "kitchen_area": "14 м²",
+    "floor": "11 з 14",
+    "total_floors": 14,
+    "property_type": "Вторинна нерухомість",
+    "seller_type": "Власник",
+    "building_type": "Панель",
+    "build_year": "2000",
+    "walls": "Панель",
+    "ceiling_height": "2.5 м",
+    "condition": "після ремонту",
+    "heating": "централізоване",
+    "water_heating": "централізований",
+    "bathroom": "суміжний санвузол",
+    "meters": [
+      "лічильник на електрику",
+      "лічильник на воду"
+    ],
+    "utilities": [
+      "електрика",
+      "газ",
+      "інтернет"
+    ],
+    "entrance": "домофон",
+    "furniture": "повністю мебльована",
+    "yard_type": "оздоблений двір",
+    "balcony": true,
+    "internal_finish": "після ремонту",
+    "external_finish": "обкладена цеглою",
+    "insulation": "без утеплення",
+    "ceilings_finish": "фарбування",
+    "floor_finish": "ламинат",
+    "benefits": [
+      "Вид на місто",
+      "Вигідна ціна",
+      "Мебльована"
+    ],
+    "commission": "Без комісії",
+    "description": "Чудовий вигляд на місто, все мебльоване, стан заходь і живи.",
+    "full_description": "Однокімнатна квартира на 11 поверсі з панорамним видом на місто. Ремонт 2024 року. Кімната 30 кв.м. з зоною відпочинку та робочою зоною. Кухня 14 кв.м. з новим кухонним гарнітуром та технікою. Санвузол суміжний, повністю відремонтований. Вся меблі залишаються: ліжко з ортопедичним матрацем, шафа-купе, диван, обідній стіл, стільці, тумбочки, полиці. Вся техніка також залишається: телевізор 55\", холодильник, плита, витяжка, пральна машина, мікрохвильовка, кондиціонер. Квартира продається терміново, ціна нижче ринкової на 15%. Ідеально підходить для інвестиції або молодих.",
+    "verified": true,
+    "verified_date": "4 лис.",
+    "passport_provided": true,
+    "created": "11 лис. 2025",
+    "views": 31294,
+    "saved": 612,
+    "listing_id": "ID 33438765",
+    "realtor": {
+      "name": "Тетяна",
+      "verified": false,
+      "online": false,
+      "last_seen": "1 годину тому",
+      "rating": null,
+      "experience_years": null,
+      "listings_sold": null,
+      "avatar": "https://images.unsplash.com/photo-1527030280862-64139fba04ca"
+    },
+    "building_info": {
+      "address": "вул. Карпенка, 42",
+      "build_year_range": "2000",
+      "external_walls": "панель, обкладена цеглою",
+      "entrances": 5,
+      "insulation": "без утеплення",
+      "yard": "оздоблений двір",
+      "amenities": [
+        "Дитячий майданчик",
+        "Спортивний майданчик",
+        "Місця для паркінгу",
+        "Озеленення"
+      ]
+    },
+    "infrastructure": {
+      "education": [
+        {
+          "name": "Школа №23",
+          "walk_time": "12хв",
+          "distance": "720м"
+        },
+        {
+          "name": "Дитячий садок №19",
+          "walk_time": "8хв",
+          "distance": "480м"
+        },
+        {
+          "name": "Тернопільський фаховий коледж харчових технологій",
+          "walk_time": "25хв",
+          "distance": "1.5км"
+        }
+      ],
+      "kindergartens": [
+        {
+          "name": "Дитячий садок №19",
+          "walk_time": "8хв",
+          "distance": "480м"
+        },
+        {
+          "name": "Дитячий садок №22",
+          "walk_time": "14хв",
+          "distance": "840м"
+        }
+      ],
+      "schools": [
+        {
+          "name": "Школа №23",
+          "walk_time": "12хв",
+          "distance": "720м"
+        },
+        {
+          "name": "Школа №9",
+          "walk_time": "18хв",
+          "distance": "1.1км"
+        }
+      ],
+      "shops": [
+        {
+          "name": "АТБ-Маркет",
+          "walk_time": "7хв",
+          "distance": "420м"
+        },
+        {
+          "name": "Продуктовий магазин Канада",
+          "walk_time": "4хв",
+          "distance": "240м"
+        },
+        {
+          "name": "М'ясний магазин",
+          "walk_time": "9хв",
+          "distance": "540м"
+        }
+      ],
+      "hospitals": [
+        {
+          "name": "Поліклініка №7",
+          "walk_time": "15хв",
+          "distance": "900м"
+        },
+        {
+          "name": "Аптека",
+          "walk_time": "6хв",
+          "distance": "360м"
+        }
+      ],
+      "parks": [
+        {
+          "name": "Парк Канада",
+          "walk_time": "10хв",
+          "distance": "600м"
+        },
+        {
+          "name": "Сквер Карпенка",
+          "walk_time": "5хв",
+          "distance": "300м"
+        }
+      ],
+      "transport": [
+        {
+          "name": "зупинка Карпенка",
+          "walk_time": "3хв",
+          "distance": "180м"
+        },
+        {
+          "name": "зупинка Канада",
+          "walk_time": "6хв",
+          "distance": "360м"
+        }
+      ],
+      "parking": [
+        {
+          "name": "вул. Карпенка",
+          "walk_time": "2хв",
+          "distance": "120м"
+        },
+        {
+          "name": "паркінг біля магазину",
+          "walk_time": "5хв",
+          "distance": "300м"
+        }
+      ]
+    },
+    "district_rating": {
+      "overall": 6.9,
+      "transport": 7.2,
+      "safety": 7.1,
+      "ecology": 6.8,
+      "infrastructure": 6.7,
+      "comfort": 7.0,
+      "reviews_count": 38
+    },
+    "coordinates": {
+      "lat": 49.5486,
+      "lng": 25.5991
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1527030280862-64139fba04ca",
+      "https://images.unsplash.com/photo-1595526114035-0d45ed16cf01",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688"
+    ],
+    "contacts": {
+      "phones": [
+        "(067) XXX XX XX"
+      ],
+      "chat_available": false
+    }
+  },
+  {
+    "id": 11,
+    "price": "63 700 $",
+    "price_hrn": "2 675 400 грн",
+    "price_per_m2": "1 030 $ за м²",
+    "price_per_m2_hrn": "43 260 грн за м²",
+    "address": "вул. Корольова",
+    "city": "Тернопіль",
+    "district": "Сонячний",
+    "complex": "ЖК Ренесанс",
+    "rooms": 2,
+    "total_area": "62 м²",
+    "living_area": "37 м²",
+    "kitchen_area": "15 м²",
+    "floor": "6 з 10",
+    "total_floors": 10,
+    "property_type": "Новобудова",
+    "seller_type": "Представник забудовника",
+    "building_type": "Керамоблок",
+    "build_year": "2024",
+    "walls": "Керамоблок",
+    "ceiling_height": "2.8 м",
+    "condition": "чернова",
+    "heating": "централізоване",
+    "water_heating": "централізований",
+    "bathroom": "роздільний санвузол",
+    "meters": [
+      "лічильник на електрику",
+      "лічильник на воду",
+      "лічильник на газ"
+    ],
+    "utilities": [
+      "електрика",
+      "газ",
+      "інтернет"
+    ],
+    "entrance": "домофон, відеонагляд",
+    "furniture": "немає",
+    "yard_type": "закрита територія",
+    "balcony": true,
+    "internal_finish": "чернова",
+    "external_finish": "утеплений",
+    "insulation": "зовнішнє утеплення",
+    "ceilings_finish": "бетон",
+    "floor_finish": "стяжка",
+    "benefits": [
+      "Закрита територія",
+      "Дитячий майданчик",
+      "Свіжий ремонт"
+    ],
+    "commission": "Без комісії",
+    "description": "Новий будинок, закрита територія, дитячий майданчик.",
+    "full_description": "Двокімнатна квартира в новобудові від забудовника. Остання квартира на поверсі. Чернова обробка: стіни та стелі вирівняні, підлога - стяжка, розведені комунікації (електрика, вода, каналізація). Можливість вибору планування та фінішної обробки за індивідуальним проектом. Дві окремі кімнати: одна 16 кв.м., друга 13 кв.м. Кухня 15 кв.м. Роздільний санвузол (ванна кімната 4 кв.м., туалет 2 кв.м.). Лоджія 3 кв.м. Будинок з закритою територією, дитячими майданчиками, спортивним комплексом. Можлива розстрочка від забудовника.",
+    "verified": true,
+    "verified_date": "3 лис.",
+    "passport_provided": true,
+    "created": "6 лис. 2025",
+    "views": 8765,
+    "saved": 143,
+    "listing_id": "ID 33438766",
+    "realtor": {
+      "name": "Володимир",
+      "verified": true,
+      "online": true,
+      "last_seen": "30 хвилин тому",
+      "rating": 8.3,
+      "experience_years": 4,
+      "listings_sold": 67,
+      "avatar": "https://images.unsplash.com/photo-1451976426598-a7593bd6d0b2"
+    },
+    "building_info": {
+      "address": "вул. Корольова, 15",
+      "build_year_range": "2024",
+      "external_walls": "керамоблок",
+      "entrances": 2,
+      "insulation": "зовнішнє утеплення",
+      "yard": "закрита територія",
+      "amenities": [
+        "Дитячий майданчик",
+        "Спортивний майданчик",
+        "Місця для паркінгу",
+        "Відеонагляд",
+        "Озеленення"
+      ]
+    },
+    "infrastructure": {
+      "education": [
+        {
+          "name": "Школа №25",
+          "walk_time": "10хв",
+          "distance": "600м"
+        },
+        {
+          "name": "Дитячий садок №21",
+          "walk_time": "6хв",
+          "distance": "360м"
+        },
+        {
+          "name": "Тернопільський фаховий коледж сервісу",
+          "walk_time": "20хв",
+          "distance": "1.2км"
+        }
+      ],
+      "kindergartens": [
+        {
+          "name": "Дитячий садок №21",
+          "walk_time": "6хв",
+          "distance": "360м"
+        },
+        {
+          "name": "Приватний садок Сонечко",
+          "walk_time": "12хв",
+          "distance": "720м"
+        }
+      ],
+      "schools": [
+        {
+          "name": "Школа №25",
+          "walk_time": "10хв",
+          "distance": "600м"
+        },
+        {
+          "name": "Школа №12",
+          "walk_time": "15хв",
+          "distance": "900м"
+        }
+      ],
+      "shops": [
+        {
+          "name": "АТБ-Маркет",
+          "walk_time": "8хв",
+          "distance": "480м"
+        },
+        {
+          "name": "Продуктовий магазин Ренесанс",
+          "walk_time": "4хв",
+          "distance": "240м"
+        },
+        {
+          "name": "Пекарня Смак",
+          "walk_time": "7хв",
+          "distance": "420м"
+        }
+      ],
+      "hospitals": [
+        {
+          "name": "Поліклініка №8",
+          "walk_time": "14хв",
+          "distance": "840м"
+        },
+        {
+          "name": "Аптека",
+          "walk_time": "9хв",
+          "distance": "540м"
+        }
+      ],
+      "parks": [
+        {
+          "name": "Парк Сонячний",
+          "walk_time": "8хв",
+          "distance": "480м"
+        },
+        {
+          "name": "Сквер Корольова",
+          "walk_time": "3хв",
+          "distance": "180м"
+        }
+      ],
+      "transport": [
+        {
+          "name": "зупинка Корольова",
+          "walk_time": "5хв",
+          "distance": "300м"
+        },
+        {
+          "name": "зупинка Сонячна",
+          "walk_time": "7хв",
+          "distance": "420м"
+        }
+      ],
+      "parking": [
+        {
+          "name": "вул. Корольова",
+          "walk_time": "2хв",
+          "distance": "120м"
+        },
+        {
+          "name": "паркінг ЖК Ренесанс",
+          "walk_time": "3хв",
+          "distance": "180м"
+        }
+      ]
+    },
+    "district_rating": {
+      "overall": 7.4,
+      "transport": 7.6,
+      "safety": 7.8,
+      "ecology": 7.5,
+      "infrastructure": 7.3,
+      "comfort": 7.5,
+      "reviews_count": 52
+    },
+    "coordinates": {
+      "lat": 49.5473,
+      "lng": 25.5938
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1451976426598-a7593bd6d0b2",
+      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4",
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750"
+    ],
+    "contacts": {
+      "phones": [
+        "(067) XXX XX XX",
+        "(098) XXX XX XX"
+      ],
+      "chat_available": true
+    }
+  },
+  {
+    "id": 12,
+    "price": "77 800 $",
+    "price_hrn": "3 267 600 грн",
+    "price_per_m2": "1 180 $ за м²",
+    "price_per_m2_hrn": "49 560 грн за м²",
+    "address": "вул. Протасевича",
+    "city": "Тернопіль",
+    "district": "Східний",
+    "complex": "ЖК Преміум",
+    "rooms": 2,
+    "total_area": "66 м²",
+    "living_area": "41 м²",
+    "kitchen_area": "17 м²",
+    "floor": "9 з 11",
+    "total_floors": 11,
+    "property_type": "Вторинна нерухомість",
+    "seller_type": "Власник",
+    "building_type": "Цегла",
+    "build_year": "2019",
+    "walls": "Цегла",
+    "ceiling_height": "2.8 м",
+    "condition": "після ремонту",
+    "heating": "індивідуальне",
+    "water_heating": "бойлер",
+    "bathroom": "роздільний санвузол",
+    "meters": [
+      "лічильник на електрику",
+      "лічильник на воду",
+      "лічильник на газ"
+    ],
+    "utilities": [
+      "електрика",
+      "газ",
+      "інтернет",
+      "теплі підлоги"
+    ],
+    "entrance": "домофон, відеонагляд",
+    "furniture": "частково",
+    "yard_type": "оздоблений двір",
+    "balcony": true,
+    "internal_finish": "після ремонту",
+    "external_finish": "утеплений",
+    "insulation": "зовнішнє утеплення",
+    "ceilings_finish": "натяжні стелі",
+    "floor_finish": "ламинат",
+    "benefits": [
+      "Тепла підлога",
+      "Вбудована техніка",
+      "Охайний під'їзд"
+    ],
+    "commission": "Без комісії",
+    "description": "Велика кухня, вбудована техніка, індивідуальне опалення.",
+    "full_description": "Двокімнатна квартира після повного ремонту 2025 року. Індивідуальне опалення (газовий котел з погодозалежною автоматикою). Тепла підлога у ванній кімнаті, туалеті та кухні. Кухня 17 кв.м. з вбудованою технікою (холодильник, плита, витяжка, посудомийна машина, мікрохвильовка). Дві окремі кімнати: одна 18 кв.м., друга 15 кв.м. Роздільний санвузол (ванна кімната 5 кв.м. з душовою кабіною, туалет 2 кв.м.). Лоджія засклена та утеплена. Вікна трискляні, енергозберігаючі. Частина меблів залишається: шафа-купе у передпокої, кухонний гарнітур. Будинок з озелененим двором, дитячим майданчиком.",
+    "verified": true,
+    "verified_date": "3 лис.",
+    "passport_provided": true,
+    "created": "9 лис. 2025",
+    "views": 10432,
+    "saved": 187,
+    "listing_id": "ID 33438767",
+    "realtor": {
+      "name": "Юлія",
+      "verified": false,
+      "online": false,
+      "last_seen": "6 годин тому",
+      "rating": null,
+      "experience_years": null,
+      "listings_sold": null,
+      "avatar": "https://images.unsplash.com/photo-1503174971373-b1f69850bded"
+    },
+    "building_info": {
+      "address": "вул. Протасевича, 31",
+      "build_year_range": "2019",
+      "external_walls": "цегла",
+      "entrances": 2,
+      "insulation": "зовнішнє утеплення",
+      "yard": "оздоблений двір",
+      "amenities": [
+        "Дитячий майданчик",
+        "Спортивний майданчик",
+        "Місця для паркінгу",
+        "Відеонагляд",
+        "Озеленення"
+      ]
+    },
+    "infrastructure": {
+      "education": [
+        {
+          "name": "Школа №14",
+          "walk_time": "8хв",
+          "distance": "480м"
+        },
+        {
+          "name": "Дитячий садок №13",
+          "walk_time": "6хв",
+          "distance": "360м"
+        },
+        {
+          "name": "Тернопільський фаховий коледж будівництва",
+          "walk_time": "20хв",
+          "distance": "1.2км"
+        }
+      ],
+      "kindergartens": [
+        {
+          "name": "Дитячий садок №13",
+          "walk_time": "6хв",
+          "distance": "360м"
+        },
+        {
+          "name": "Дитячий садок №16",
+          "walk_time": "10хв",
+          "distance": "600м"
+        }
+      ],
+      "schools": [
+        {
+          "name": "Школа №14",
+          "walk_time": "8хв",
+          "distance": "480м"
+        },
+        {
+          "name": "Школа №20",
+          "walk_time": "12хв",
+          "distance": "720м"
+        }
+      ],
+      "shops": [
+        {
+          "name": "АТБ-Маркет",
+          "walk_time": "7хв",
+          "distance": "420м"
+        },
+        {
+          "name": "Продуктовий магазин Преміум",
+          "walk_time": "4хв",
+          "distance": "240м"
+        },
+        {
+          "name": "Кав'ярня",
+          "walk_time": "9хв",
+          "distance": "540м"
+        }
+      ],
+      "hospitals": [
+        {
+          "name": "Поліклініка №3",
+          "walk_time": "12хв",
+          "distance": "720м"
+        },
+        {
+          "name": "Аптека Здоров'я",
+          "walk_time": "8хв",
+          "distance": "480м"
+        }
+      ],
+      "parks": [
+        {
+          "name": "Парк Протасевича",
+          "walk_time": "4хв",
+          "distance": "240м"
+        },
+        {
+          "name": "Сквер Східний",
+          "walk_time": "8хв",
+          "distance": "480м"
+        }
+      ],
+      "transport": [
+        {
+          "name": "зупинка Протасевича",
+          "walk_time": "5хв",
+          "distance": "300м"
+        },
+        {
+          "name": "зупинка Паркова",
+          "walk_time": "7хв",
+          "distance": "420м"
+        }
+      ],
+      "parking": [
+        {
+          "name": "вул. Протасевича",
+          "walk_time": "2хв",
+          "distance": "120м"
+        },
+        {
+          "name": "паркінг біля парку",
+          "walk_time": "4хв",
+          "distance": "240м"
+        }
+      ]
+    },
+    "district_rating": {
+      "overall": 7.2,
+      "transport": 6.8,
+      "safety": 7.6,
+      "ecology": 7.9,
+      "infrastructure": 7.1,
+      "comfort": 7.4,
+      "reviews_count": 45
+    },
+    "coordinates": {
+      "lat": 49.5572,
+      "lng": 25.6031
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1503174971373-b1f69850bded",
+      "https://images.unsplash.com/photo-1519710164239-da123dc03ef4",
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
+    ],
+    "contacts": {
+      "phones": [
+        "(067) XXX XX XX"
+      ],
+      "chat_available": false
+    }
+  },
+  {
+    "id": 13,
+    "price": "93 400 $",
+    "price_hrn": "3 922 800 грн",
+    "price_per_m2": "1 330 $ за м²",
+    "price_per_m2_hrn": "55 860 грн за м²",
+    "address": "вул. Медова",
+    "city": "Тернопіль",
+    "district": "Центр",
+    "complex": "ЖК Медовий Дім",
+    "rooms": 3,
+    "total_area": "70 м²",
+    "living_area": "46 м²",
+    "kitchen_area": "12 м²",
+    "floor": "3 з 8",
+    "total_floors": 8,
+    "property_type": "Вторинна нерухомість",
+    "seller_type": "Рієлтор",
+    "building_type": "Моноліт",
+    "build_year": "2016",
+    "walls": "Моноліт",
+    "ceiling_height": "2.8 м",
+    "condition": "після ремонту",
+    "heating": "централізоване",
+    "water_heating": "бойлер",
+    "bathroom": "роздільний санвузол",
+    "meters": [
+      "лічильник на електрику",
+      "лічильник на воду",
+      "лічильник на газ"
+    ],
+    "utilities": [
+      "електрика",
+      "газ",
+      "інтернет",
+      "кондиціонер"
+    ],
+    "entrance": "домофон, відеонагляд",
+    "furniture": "частково",
+    "yard_type": "оздоблений двір",
+    "balcony": true,
+    "internal_finish": "після ремонту",
+    "external_finish": "утеплений",
+    "insulation": "зовнішнє утеплення",
+    "ceilings_finish": "натяжні стелі",
+    "floor_finish": "ламинат",
+    "benefits": [
+      "Поруч центр",
+      "Панорамні вікна",
+      "Кондиціонер"
+    ],
+    "commission": "Комісія 2%",
+    "description": "Світла та простора квартира з якісним ремонтом.",
+    "full_description": "Трьохкімнатна квартира в монолітному будинку з панорамними вікнами. Повний євроремонт 2024 року. Три окремі кімнати: головна спальня 16 кв.м., дитяча кімната 15 кв.м., кабінет 15 кв.м. Кухня 12 кв.м. з виходом на лоджію 4 кв.м. Роздільний санвузол (ванна кімната 5 кв.м. з ванною, туалет 2 кв.м.). Кондиціонер у вітальні та головній спальні. Вікна панорамні, з енергозберігаючими склопакетами. Підлога з ламінату в кімнатах, плитка в санвузлах та кухні. Частина меблів залишається: кухонний гарнітур, шафа-купе у передпокої. Будинок розташований в історичному центрі, поруч головні визначні пам'ятки міста.",
+    "verified": true,
+    "verified_date": "4 лис.",
+    "passport_provided": true,
+    "created": "12 лис. 2025",
+    "views": 6789,
+    "saved": 134,
+    "listing_id": "ID 33438768",
+    "realtor": {
+      "name": "Максим",
+      "verified": true,
+      "online": true,
+      "last_seen": "2 години тому",
+      "rating": 8.9,
+      "experience_years": 6,
+      "listings_sold": 94,
+      "avatar": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4"
+    },
+    "building_info": {
+      "address": "вул. Медова, 9",
+      "build_year_range": "2016",
+      "external_walls": "моноліт",
+      "entrances": 1,
+      "insulation": "зовнішнє утеплення",
+      "yard": "оздоблений двір",
+      "amenities": [
+        "Озеленення",
+        "Місця для паркінгу",
+        "Відеонагляд",
+        "Дитячий майданчик"
+      ]
+    },
+    "infrastructure": {
+      "education": [
+        {
+          "name": "Школа №2",
+          "walk_time": "10хв",
+          "distance": "600м"
+        },
+        {
+          "name": "Дитячий садок №3",
+          "walk_time": "8хв",
+          "distance": "480м"
+        },
+        {
+          "name": "Тернопільський національний педагогічний університет",
+          "walk_time": "15хв",
+          "distance": "900м"
+        }
+      ],
+      "kindergartens": [
+        {
+          "name": "Дитячий садок №3",
+          "walk_time": "8хв",
+          "distance": "480м"
+        },
+        {
+          "name": "Приватний садок Казка",
+          "walk_time": "12хв",
+          "distance": "720м"
+        }
+      ],
+      "schools": [
+        {
+          "name": "Школа №2",
+          "walk_time": "10хв",
+          "distance": "600м"
+        },
+        {
+          "name": "Гімназія №1",
+          "walk_time": "14хв",
+          "distance": "840м"
+        }
+      ],
+      "shops": [
+        {
+          "name": "ТРЦ Галерія",
+          "walk_time": "5хв",
+          "distance": "300м"
+        },
+        {
+          "name": "Сільпо",
+          "walk_time": "8хв",
+          "distance": "480м"
+        },
+        {
+          "name": "Ринок Старий",
+          "walk_time": "12хв",
+          "distance": "720м"
+        }
+      ],
+      "hospitals": [
+        {
+          "name": "Міська лікарня",
+          "walk_time": "10хв",
+          "distance": "600м"
+        },
+        {
+          "name": "Стоматологія ДентАрт",
+          "walk_time": "7хв",
+          "distance": "420м"
+        }
+      ],
+      "parks": [
+        {
+          "name": "Парк ім. Тараса Шевченка",
+          "walk_time": "8хв",
+          "distance": "480м"
+        },
+        {
+          "name": "Сквер Медовий",
+          "walk_time": "3хв",
+          "distance": "180м"
+        }
+      ],
+      "transport": [
+        {
+          "name": "зупинка Центр",
+          "walk_time": "4хв",
+          "distance": "240м"
+        },
+        {
+          "name": "зупинка Медова",
+          "walk_time": "2хв",
+          "distance": "120м"
+        }
+      ],
+      "parking": [
+        {
+          "name": "вул. Медова",
+          "walk_time": "2хв",
+          "distance": "120м"
+        },
+        {
+          "name": "паркінг біля ТРЦ",
+          "walk_time": "6хв",
+          "distance": "360м"
+        }
+      ]
+    },
+    "district_rating": {
+      "overall": 8.3,
+      "transport": 8.9,
+      "safety": 8.1,
+      "ecology": 7.2,
+      "infrastructure": 8.7,
+      "comfort": 8.4,
+      "reviews_count": 71
+    },
+    "coordinates": {
+      "lat": 49.5515,
+      "lng": 25.5896
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1519710164239-da123dc03ef4",
+      "https://images.unsplash.com/photo-1586105251261-72a756497a12",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688",
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c"
+    ],
+    "contacts": {
+      "phones": [
+        "(067) XXX XX XX",
+        "(050) XXX XX XX"
+      ],
+      "chat_available": true
+    }
+  },
+  {
+    "id": 14,
+    "price": "58 900 $",
+    "price_hrn": "2 473 800 грн",
+    "price_per_m2": "920 $ за м²",
+    "price_per_m2_hrn": "38 640 грн за м²",
+    "address": "вул. Довженка",
+    "city": "Тернопіль",
+    "district": "Дружба",
+    "complex": "ЖК Гармонія",
+    "rooms": 1,
+    "total_area": "64 м²",
+    "living_area": "34 м²",
+    "kitchen_area": "14 м²",
+    "floor": "10 з 12",
+    "total_floors": 12,
+    "property_type": "Вторинна нерухомість",
+    "seller_type": "Власник",
+    "building_type": "Панель",
+    "build_year": "1998",
+    "walls": "Панель",
+    "ceiling_height": "2.5 м",
+    "condition": "потребує ремонту",
+    "heating": "централізоване",
+    "water_heating": "централізований",
+    "bathroom": "суміжний санвузол",
+    "meters": [
+      "лічильник на електрику",
+      "лічильник на воду"
+    ],
+    "utilities": [
+      "електрика",
+      "газ"
+    ],
+    "entrance": "домофон",
+    "furniture": "немає",
+    "yard_type": "оздоблений двір",
+    "balcony": true,
+    "internal_finish": "потребує ремонту",
+    "external_finish": "обкладена цеглою",
+    "insulation": "без утеплення",
+    "ceilings_finish": "фарбування",
+    "floor_finish": "паркет",
+    "benefits": [
+      "Вигідна ціна",
+      "Поруч зупинка",
+      "Свіжий ремонт"
+    ],
+    "commission": "Без комісії",
+    "description": "Квартира в новобудові, тепла, простора, гарна інфраструктура.",
+    "full_description": "Однокімнатна квартира в панельному будинку. Квартира потребує повного капітального ремонту: заміна всіх комунікацій, вирівнювання стін та стель, заміна підлогового покриття, заміна сантехніки. Кімната 34 кв.м. Кухня 14 кв.м. Санвузол суміжний 4 кв.м. Лоджія 5 кв.м. Вікна дерев'яні, потребують заміни. Будинок обкладений цеглою, є домофон. Терміновий продаж через переїзд у інше місто. Ціна нижче ринкової на 20%. Ідеальний варіант для інвестора або тих, хто хоче зробити ремонт за своїм смаком.",
+    "verified": true,
+    "verified_date": "4 лис.",
+    "passport_provided": true,
+    "created": "7 лис. 2025",
+    "views": 18976,
+    "saved": 398,
+    "listing_id": "ID 33438769",
+    "realtor": {
+      "name": "Анна",
+      "verified": false,
+      "online": false,
+      "last_seen": "4 години тому",
+      "rating": null,
+      "experience_years": null,
+      "listings_sold": null,
+      "avatar": "https://images.unsplash.com/photo-1505691938895-1758d7feb511"
+    },
+    "building_info": {
+      "address": "вул. Довженка, 56",
+      "build_year_range": "1998",
+      "external_walls": "панель, обкладена цеглою",
+      "entrances": 4,
+      "insulation": "без утеплення",
+      "yard": "оздоблений двір",
+      "amenities": [
+        "Дитячий майданчик",
+        "Спортивний майданчик",
+        "Місця для паркінгу",
+        "Озеленення"
+      ]
+    },
+    "infrastructure": {
+      "education": [
+        {
+          "name": "Школа №18",
+          "walk_time": "12хв",
+          "distance": "720м"
+        },
+        {
+          "name": "Дитячий садок №20",
+          "walk_time": "8хв",
+          "distance": "480м"
+        },
+        {
+          "name": "Тернопільський фаховий коледж мистецтв",
+          "walk_time": "22хв",
+          "distance": "1.3км"
+        }
+      ],
+      "kindergartens": [
+        {
+          "name": "Дитячий садок №20",
+          "walk_time": "8хв",
+          "distance": "480м"
+        },
+        {
+          "name": "Дитячий садок №8",
+          "walk_time": "14хв",
+          "distance": "840м"
+        }
+      ],
+      "schools": [
+        {
+          "name": "Школа №18",
+          "walk_time": "12хв",
+          "distance": "720м"
+        },
+        {
+          "name": "Школа №5",
+          "walk_time": "16хв",
+          "distance": "960м"
+        }
+      ],
+      "shops": [
+        {
+          "name": "АТБ-Маркет",
+          "walk_time": "10хв",
+          "distance": "600м"
+        },
+        {
+          "name": "Продуктовий магазин Дружба",
+          "walk_time": "6хв",
+          "distance": "360м"
+        },
+        {
+          "name": "Пекарня",
+          "walk_time": "8хв",
+          "distance": "480м"
+        }
+      ],
+      "hospitals": [
+        {
+          "name": "Поліклініка №9",
+          "walk_time": "15хв",
+          "distance": "900м"
+        },
+        {
+          "name": "Аптека",
+          "walk_time": "7хв",
+          "distance": "420м"
+        }
+      ],
+      "parks": [
+        {
+          "name": "Парк Дружби",
+          "walk_time": "5хв",
+          "distance": "300м"
+        },
+        {
+          "name": "Сквер Довженка",
+          "walk_time": "3хв",
+          "distance": "180м"
+        }
+      ],
+      "transport": [
+        {
+          "name": "зупинка Довженка",
+          "walk_time": "4хв",
+          "distance": "240м"
+        },
+        {
+          "name": "зупинка Дружба",
+          "walk_time": "7хв",
+          "distance": "420м"
+        }
+      ],
+      "parking": [
+        {
+          "name": "вул. Довженка",
+          "walk_time": "2хв",
+          "distance": "120м"
+        },
+        {
+          "name": "паркінг біля парку",
+          "walk_time": "5хв",
+          "distance": "300м"
+        }
+      ]
+    },
+    "district_rating": {
+      "overall": 7.0,
+      "transport": 7.3,
+      "safety": 7.5,
+      "ecology": 7.1,
+      "infrastructure": 6.9,
+      "comfort": 7.2,
+      "reviews_count": 43
+    },
+    "coordinates": {
+      "lat": 49.5441,
+      "lng": 25.6087
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511",
+      "https://images.unsplash.com/photo-1550583724-b2692b85b150",
+      "https://images.unsplash.com/photo-1527030280862-64139fba04ca",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750"
+    ],
+    "contacts": {
+      "phones": [
+        "(067) XXX XX XX"
+      ],
+      "chat_available": false
+    }
+  },
+  {
+    "id": 15,
+    "price": "108 200 $",
+    "price_hrn": "4 544 400 грн",
+    "price_per_m2": "1 430 $ за м²",
+    "price_per_m2_hrn": "60 060 грн за м²",
+    "address": "вул. Миру",
+    "city": "Тернопіль",
+    "district": "Центр",
+    "complex": "ЖК Елегант",
+    "rooms": 3,
+    "total_area": "76 м²",
+    "living_area": "52 м²",
+    "kitchen_area": "15 м²",
+    "floor": "4 з 9",
+    "total_floors": 9,
+    "property_type": "Вторинна нерухомість",
+    "seller_type": "Власник",
+    "building_type": "Цегла",
+    "build_year": "2021",
+    "walls": "Цегла",
+    "ceiling_height": "2.9 м",
+    "condition": "після ремонту",
+    "heating": "індивідуальне",
+    "water_heating": "бойлер",
+    "bathroom": "роздільний санвузол",
+    "meters": [
+      "лічильник на електрику",
+      "лічильник на воду",
+      "лічильник на газ"
+    ],
+    "utilities": [
+      "електрика",
+      "газ",
+      "інтернет",
+      "кондиціонер",
+      "сигналізація"
+    ],
+    "entrance": "домофон, відеонагляд, консьєрж",
+    "furniture": "дизайнерські меблі",
+    "yard_type": "закрита територія",
+    "balcony": true,
+    "internal_finish": "після ремонту",
+    "external_finish": "утеплений",
+    "insulation": "зовнішнє утеплення",
+    "ceilings_finish": "натяжні стелі з підсвіткою",
+    "floor_finish": "паркетна дошка",
+    "benefits": [
+      "Дизайнерський ремонт",
+      "Підземний паркінг",
+      "Консьєрж"
+    ],
+    "commission": "Без комісії",
+    "description": "Дизайнерський ремонт, вбудовані меблі, підземний паркінг.",
+    "full_description": "Трьохкімнатна квартира з дизайнерським ремонтом від відомого архітектора. Ремонт 2024 року в стилі модерн з елементами ар-деко. Дизайнерські меблі італійського виробництва, які залишаються. Кухня 15 кв.м. з островом та технікою Miele. Три окремі кімнати: головна спальня 20 кв.м. з гардеробною та санвузлом, друга спальня 18 кв.м., вітальня 14 кв.м. Два санвузли: головний з ванною freestanding та душовою кабіною, гостєвий. Тепла підлога у всіх санвузлах та кухні. Кондиціонери в кожній кімнаті. Система \"розумний дім\". Будинок з закритою територією, підземним паркінгом, консьєржем, фітнес-центром та СПА.",
+    "verified": true,
+    "verified_date": "5 лис.",
+    "passport_provided": true,
+    "created": "17 лис. 2025",
+    "views": 4567,
+    "saved": 98,
+    "listing_id": "ID 33438770",
+    "realtor": {
+      "name": "Роман",
+      "verified": false,
+      "online": false,
+      "last_seen": "1 годину тому",
+      "rating": null,
+      "experience_years": null,
+      "listings_sold": null,
+      "avatar": "https://images.unsplash.com/photo-1519981593452-666cf05569a9"
+    },
+    "building_info": {
+      "address": "вул. Миру, 3",
+      "build_year_range": "2021",
+      "external_walls": "цегла",
+      "entrances": 1,
+      "insulation": "зовнішнє утеплення",
+      "yard": "закрита територія",
+      "amenities": [
+        "Підземний паркінг",
+        "Консьєрж",
+        "Фітнес-центр",
+        "СПА-центр",
+        "Басейн",
+        "Дитяча кімната",
+        "Відеонагляд 24/7",
+        "Охорона"
+      ]
+    },
+    "infrastructure": {
+      "education": [
+        {
+          "name": "Ліцей №4",
+          "walk_time": "8хв",
+          "distance": "480м"
+        },
+        {
+          "name": "Дитячий садок №2",
+          "walk_time": "6хв",
+          "distance": "360м"
+        },
+        {
+          "name": "Тернопільський національний технічний університет",
+          "walk_time": "12хв",
+          "distance": "720м"
+        }
+      ],
+      "kindergartens": [
+        {
+          "name": "Дитячий садок №2",
+          "walk_time": "6хв",
+          "distance": "360м"
+        },
+        {
+          "name": "Приватний садок Монтессорі",
+          "walk_time": "10хв",
+          "distance": "600м"
+        }
+      ],
+      "schools": [
+        {
+          "name": "Ліцей №4",
+          "walk_time": "8хв",
+          "distance": "480м"
+        },
+        {
+          "name": "Гімназія №3",
+          "walk_time": "12хв",
+          "distance": "720м"
+        }
+      ],
+      "shops": [
+        {
+          "name": "ТРЦ Подоляни",
+          "walk_time": "5хв",
+          "distance": "300м"
+        },
+        {
+          "name": "Сільпо преміум",
+          "walk_time": "7хв",
+          "distance": "420м"
+        },
+        {
+          "name": "Бутик одягу",
+          "walk_time": "8хв",
+          "distance": "480м"
+        }
+      ],
+      "hospitals": [
+        {
+          "name": "Обласна лікарня",
+          "walk_time": "10хв",
+          "distance": "600м"
+        },
+        {
+          "name": "Приватна клініка",
+          "walk_time": "8хв",
+          "distance": "480м"
+        }
+      ],
+      "parks": [
+        {
+          "name": "Парк Миру",
+          "walk_time": "3хв",
+          "distance": "180м"
+        },
+        {
+          "name": "Сквер Центральний",
+          "walk_time": "5хв",
+          "distance": "300м"
+        }
+      ],
+      "transport": [
+        {
+          "name": "зупинка Центр",
+          "walk_time": "4хв",
+          "distance": "240м"
+        },
+        {
+          "name": "зупинка Миру",
+          "walk_time": "2хв",
+          "distance": "120м"
+        }
+      ],
+      "parking": [
+        {
+          "name": "підземний паркінг",
+          "walk_time": "1хв",
+          "distance": "50м"
+        },
+        {
+          "name": "вул. Миру",
+          "walk_time": "3хв",
+          "distance": "180м"
+        }
+      ]
+    },
+    "district_rating": {
+      "overall": 8.7,
+      "transport": 9.0,
+      "safety": 8.5,
+      "ecology": 7.8,
+      "infrastructure": 8.9,
+      "comfort": 8.8,
+      "reviews_count": 85
+    },
+    "coordinates": {
+      "lat": 49.5531,
+      "lng": 25.5914
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1519981593452-666cf05569a9",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+      "https://images.unsplash.com/photo-1527030280862-64139fba04ca",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c"
+    ],
+    "contacts": {
+      "phones": [
+        "(067) XXX XX XX"
+      ],
+      "chat_available": false
+    }
+  },
+  {
+    "id": 16,
+    "price": "72 900 $",
+    "price_hrn": "3 061 800 грн",
+    "price_per_m2": "1 170 $ за м²",
+    "price_per_m2_hrn": "49 140 грн за м²",
+    "address": "вул. Сахарова",
+    "city": "Тернопіль",
+    "district": "Новий Світ",
+    "complex": "ЖК Комфорт Таун",
+    "rooms": 2,
+    "total_area": "63 м²",
+    "living_area": "38 м²",
+    "kitchen_area": "14 м²",
+    "floor": "7 з 10",
+    "total_floors": 10,
+    "property_type": "Вторинна нерухомість",
+    "seller_type": "Власник",
+    "building_type": "Керамоблок",
+    "build_year": "2019",
+    "walls": "Керамоблок",
+    "ceiling_height": "2.8 м",
+    "condition": "після ремонту",
+    "heating": "індивідуальне",
+    "water_heating": "бойлер",
+    "bathroom": "роздільний санвузол",
+    "meters": [
+      "лічильник на електрику",
+      "лічильник на воду",
+      "лічильник на газ"
+    ],
+    "utilities": [
+      "електрика",
+      "газ",
+      "інтернет",
+      "кондиціонер"
+    ],
+    "entrance": "домофон, відеонагляд",
+    "furniture": "повністю мебльована",
+    "yard_type": "оздоблений двір",
+    "balcony": true,
+    "internal_finish": "після ремонту",
+    "external_finish": "утеплений",
+    "insulation": "зовнішнє утеплення",
+    "ceilings_finish": "натяжні стелі",
+    "floor_finish": "ламинат",
+    "benefits": [
+      "Повністю мебльована",
+      "Техніка в комплекті",
+      "Охайний під'їзд"
+    ],
+    "commission": "Без комісії",
+    "description": "Укомплектована квартира з якісною технікою.",
+    "full_description": "Двокімнатна квартира повністю укомплектована для життя. Ремонт 2024 року. Вся меблі залишаються: ліжко з ортопедичним матрацем, диван, шафи-купе, обідній стіл, стільці, тумбочки, полиці, комоди. Вся техніка також залишається: телевізор 65\", холодильник Side-by-Side, плита з духовкою, витяжка, посудомийна машина, пральна машина, мікрохвильовка, мультиварка, кондиціонер. Кухня 14 кв.м. з кухонним гарнітуром. Дві окремі кімнати: одна 16 кв.м., друга 14 кв.м. Роздільний санвузол (ванна кімната 4 кв.м., туалет 2 кв.м.). Лоджія засклена та утеплена. Індивідуальне опалення (газовий котел). Заходь і живи - навіть посуд та постільна білизна залишаються.",
+    "verified": true,
+    "verified_date": "4 лис.",
+    "passport_provided": true,
+    "created": "13 лис. 2025",
+    "views": 13456,
+    "saved": 278,
+    "listing_id": "ID 33438771",
+    "realtor": {
+      "name": "Катерина",
+      "verified": false,
+      "online": false,
+      "last_seen": "30 хвилин тому",
+      "rating": null,
+      "experience_years": null,
+      "listings_sold": null,
+      "avatar": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267"
+    },
+    "building_info": {
+      "address": "вул. Сахарова, 18",
+      "build_year_range": "2019",
+      "external_walls": "керамоблок",
+      "entrances": 2,
+      "insulation": "зовнішнє утеплення",
+      "yard": "оздоблений двір",
+      "amenities": [
+        "Дитячий майданчик",
+        "Спортивний майданчик",
+        "Місця для паркінгу",
+        "Відеонагляд",
+        "Озеленення"
+      ]
+    },
+    "infrastructure": {
+      "education": [
+        {
+          "name": "Школа №17",
+          "walk_time": "10хв",
+          "distance": "600м"
+        },
+        {
+          "name": "Дитячий садок №14",
+          "walk_time": "7хв",
+          "distance": "420м"
+        },
+        {
+          "name": "Тернопільський фаховий коледж економіки",
+          "walk_time": "20хв",
+          "distance": "1.2км"
+        }
+      ],
+      "kindergartens": [
+        {
+          "name": "Дитячий садок №14",
+          "walk_time": "7хв",
+          "distance": "420м"
+        },
+        {
+          "name": "Дитячий садок №9",
+          "walk_time": "12хв",
+          "distance": "720м"
+        }
+      ],
+      "schools": [
+        {
+          "name": "Школа №17",
+          "walk_time": "10хв",
+          "distance": "600м"
+        },
+        {
+          "name": "Школа №6",
+          "walk_time": "14хв",
+          "distance": "840м"
+        }
+      ],
+      "shops": [
+        {
+          "name": "АТБ-Маркет",
+          "walk_time": "8хв",
+          "distance": "480м"
+        },
+        {
+          "name": "Продуктовий магазин Комфорт",
+          "walk_time": "5хв",
+          "distance": "300м"
+        },
+        {
+          "name": "Пекарня",
+          "walk_time": "9хв",
+          "distance": "540м"
+        }
+      ],
+      "hospitals": [
+        {
+          "name": "Поліклініка №5",
+          "walk_time": "12хв",
+          "distance": "720м"
+        },
+        {
+          "name": "Аптека",
+          "walk_time": "7хв",
+          "distance": "420м"
+        }
+      ],
+      "parks": [
+        {
+          "name": "Парк Новий Світ",
+          "walk_time": "6хв",
+          "distance": "360м"
+        },
+        {
+          "name": "Сквер Сахарова",
+          "walk_time": "3хв",
+          "distance": "180м"
+        }
+      ],
+      "transport": [
+        {
+          "name": "зупинка Сахарова",
+          "walk_time": "4хв",
+          "distance": "240м"
+        },
+        {
+          "name": "зупинка Новий Світ",
+          "walk_time": "6хв",
+          "distance": "360м"
+        }
+      ],
+      "parking": [
+        {
+          "name": "вул. Сахарова",
+          "walk_time": "2хв",
+          "distance": "120м"
+        },
+        {
+          "name": "паркінг біля магазину",
+          "walk_time": "4хв",
+          "distance": "240м"
+        }
+      ]
+    },
+    "district_rating": {
+      "overall": 7.3,
+      "transport": 7.1,
+      "safety": 7.6,
+      "ecology": 7.4,
+      "infrastructure": 7.2,
+      "comfort": 7.5,
+      "reviews_count": 49
+    },
+    "coordinates": {
+      "lat": 49.5462,
+      "lng": 25.5821
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+      "https://images.unsplash.com/photo-1451976426598-a7593bd6d0b2",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750",
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688"
+    ],
+    "contacts": {
+      "phones": [
+        "(067) XXX XX XX"
+      ],
+      "chat_available": false
+    }
+  },
+  {
+    "id": 17,
+    "price": "49 700 $",
+    "price_hrn": "2 087 400 грн",
+    "price_per_m2": "870 $ за м²",
+    "price_per_m2_hrn": "36 540 грн за м²",
+    "address": "вул. Липова",
+    "city": "Тернопіль",
+    "district": "Бам",
+    "complex": "ЖК Лайк",
+    "rooms": 1,
+    "total_area": "57 м²",
+    "living_area": "29 м²",
+    "kitchen_area": "13 м²",
+    "floor": "8 з 14",
+    "total_floors": 14,
+    "property_type": "Вторинна нерухомість",
+    "seller_type": "Рієлтор",
+    "building_type": "Панель",
+    "build_year": "1995",
+    "walls": "Панель",
+    "ceiling_height": "2.5 м",
+    "condition": "після ремонту",
+    "heating": "централізоване",
+    "water_heating": "централізований",
+    "bathroom": "суміжний санвузол",
+    "meters": [
+      "лічильник на електрику",
+      "лічильник на воду"
+    ],
+    "utilities": [
+      "електрика",
+      "газ"
+    ],
+    "entrance": "домофон",
+    "furniture": "частково",
+    "yard_type": "оздоблений двір",
+    "balcony": true,
+    "internal_finish": "після ремонту",
+    "external_finish": "утеплений",
+    "insulation": "зовнішнє утеплення",
+    "ceilings_finish": "фарбування",
+    "floor_finish": "ламинат",
+    "benefits": [
+      "Вигідна ціна",
+      "Поруч зупинка",
+      "Теплий будинок"
+    ],
+    "commission": "Комісія 3%",
+    "description": "Охайний ремонт, утеплений будинок.",
+    "full_description": "Однокімнатна квартира в утепленому панельному будинку. Косметичний ремонт 2023 року. Кімната 29 кв.м. Кухня 13 кв.м. Санвузол суміжний 4 кв.м. Лоджія засклена. Вікна пластикові. Будинок утеплений зовнішнім утепленням, що значно знижує витрати на опалення. Частина меблів залишається: ліжко, шафа, кухонний гарнітур. Хороший варіант для першого житла або інвестиції під оренду. Розташована в спальному районі з розвиненою інфраструктурою.",
+    "verified": true,
+    "verified_date": "2 лис.",
+    "passport_provided": true,
+    "created": "4 лис. 2025",
+    "views": 26789,
+    "saved": 543,
+    "listing_id": "ID 33438772",
+    "realtor": {
+      "name": "Олег",
+      "verified": true,
+      "online": true,
+      "last_seen": "3 години тому",
+      "rating": 7.8,
+      "experience_years": 3,
+      "listings_sold": 45,
+      "avatar": "https://images.unsplash.com/photo-1560185127-6ed189bf02f4"
+    },
+    "building_info": {
+      "address": "вул. Липова, 24",
+      "build_year_range": "1995",
+      "external_walls": "панель",
+      "entrances": 5,
+      "insulation": "зовнішнє утеплення",
+      "yard": "оздоблений двір",
+      "amenities": [
+        "Дитячий майданчик",
+        "Спортивний майданчик",
+        "Місця для паркінгу",
+        "Озеленення"
+      ]
+    },
+    "infrastructure": {
+      "education": [
+        {
+          "name": "Школа №24",
+          "walk_time": "15хв",
+          "distance": "900м"
+        },
+        {
+          "name": "Дитячий садок №23",
+          "walk_time": "10хв",
+          "distance": "600м"
+        },
+        {
+          "name": "Тернопільський фаховий коледж сфери послуг",
+          "walk_time": "25хв",
+          "distance": "1.5км"
+        }
+      ],
+      "kindergartens": [
+        {
+          "name": "Дитячий садок №23",
+          "walk_time": "10хв",
+          "distance": "600м"
+        },
+        {
+          "name": "Дитячий садок №17",
+          "walk_time": "15хв",
+          "distance": "900м"
+        }
+      ],
+      "schools": [
+        {
+          "name": "Школа №24",
+          "walk_time": "15хв",
+          "distance": "900м"
+        },
+        {
+          "name": "Школа №10",
+          "walk_time": "20хв",
+          "distance": "1.2км"
+        }
+      ],
+      "shops": [
+        {
+          "name": "АТБ-Маркет",
+          "walk_time": "8хв",
+          "distance": "480м"
+        },
+        {
+          "name": "Продуктовий магазин Липовий",
+          "walk_time": "5хв",
+          "distance": "300м"
+        },
+        {
+          "name": "М'ясний магазин",
+          "walk_time": "10хв",
+          "distance": "600м"
+        }
+      ],
+      "hospitals": [
+        {
+          "name": "Поліклініка №10",
+          "walk_time": "18хв",
+          "distance": "1.1км"
+        },
+        {
+          "name": "Аптека",
+          "walk_time": "9хв",
+          "distance": "540м"
+        }
+      ],
+      "parks": [
+        {
+          "name": "Парк Бам",
+          "walk_time": "12хв",
+          "distance": "720м"
+        },
+        {
+          "name": "Сквер Липовий",
+          "walk_time": "6хв",
+          "distance": "360м"
+        }
+      ],
+      "transport": [
+        {
+          "name": "зупинка Липова",
+          "walk_time": "4хв",
+          "distance": "240м"
+        },
+        {
+          "name": "зупинка Бам",
+          "walk_time": "7хв",
+          "distance": "420м"
+        }
+      ],
+      "parking": [
+        {
+          "name": "вул. Липова",
+          "walk_time": "2хв",
+          "distance": "120м"
+        },
+        {
+          "name": "паркінг біля магазину",
+          "walk_time": "5хв",
+          "distance": "300м"
+        }
+      ]
+    },
+    "district_rating": {
+      "overall": 6.7,
+      "transport": 7.0,
+      "safety": 6.9,
+      "ecology": 6.8,
+      "infrastructure": 6.5,
+      "comfort": 6.8,
+      "reviews_count": 34
+    },
+    "coordinates": {
+      "lat": 49.5403,
+      "lng": 25.6152
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1560185127-6ed189bf02f4",
+      "https://images.unsplash.com/photo-1595526114035-0d45ed16cf01",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750",
+      "https://images.unsplash.com/photo-1527030280862-64139fba04ca"
+    ],
+    "contacts": {
+      "phones": [
+        "(067) XXX XX XX",
+        "(093) XXX XX XX"
+      ],
+      "chat_available": true
+    }
+  },
+  {
+    "id": 18,
+    "price": "82 400 $",
+    "price_hrn": "3 460 800 грн",
+    "price_per_m2": "1 290 $ за м²",
+    "price_per_m2_hrn": "54 180 грн за м²",
+    "address": "вул. Бродівська",
+    "city": "Тернопіль",
+    "district": "Кутківці",
+    "complex": "ЖК Панорама Парк",
+    "rooms": 2,
+    "total_area": "64 м²",
+    "living_area": "40 м²",
+    "kitchen_area": "14 м²",
+    "floor": "5 з 9",
+    "total_floors": 9,
+    "property_type": "Вторинна нерухомість",
+    "seller_type": "Власник",
+    "building_type": "Цегла",
+    "build_year": "2012",
+    "walls": "Цегла",
+    "ceiling_height": "2.7 м",
+    "condition": "після ремонту",
+    "heating": "індивідуальне",
+    "water_heating": "бойлер",
+    "bathroom": "роздільний санвузол",
+    "meters": [
+      "лічильник на електрику",
+      "лічильник на воду",
+      "лічильник на газ"
+    ],
+    "utilities": [
+      "електрика",
+      "газ",
+      "інтернет",
+      "теплі підлоги"
+    ],
+    "entrance": "домофон",
+    "furniture": "немає",
+    "yard_type": "паркова зона",
+    "balcony": true,
+    "internal_finish": "після ремонту",
+    "external_finish": "утеплений",
+    "insulation": "зовнішнє утеплення",
+    "ceilings_finish": "натяжні стелі",
+    "floor_finish": "ламинат",
+    "benefits": [
+      "Біля лісу",
+      "Тепла підлога",
+      "Спокійний район"
+    ],
+    "commission": "Без комісії",
+    "description": "Тиха локація біля лісу, новий ремонт, тепла підлога.",
+    "full_description": "Двокімнатна квартира в екологічно чистому районі біля лісу. Повний ремонт 2024 року. Індивідуальне опалення (газовий котел). Тепла підлога у ванній кімнаті, туалеті та кухні. Дві окремі кімнати: одна 18 кв.м., друга 14 кв.м. Кухня 14 кв.м. з виходом на лоджію 4 кв.м. Роздільний санвузол (ванна кімната 5 кв.м., туалет 2 кв.м.). Вікна трискляні, енергозберігаючі. Квартира продається без меблів, що дає можливість облаштувати за своїм смаком. Будинок розташований на околиці міста, в тихому місці біля лісового масиву. Ідеально для тих, хто цінує спокій та чистіше повітря.",
+    "verified": true,
+    "verified_date": "3 лис.",
+    "passport_provided": true,
+    "created": "10 лис. 2025",
+    "views": 9876,
+    "saved": 165,
+    "listing_id": "ID 33438773",
+    "realtor": {
+      "name": "Світлана",
+      "verified": false,
+      "online": false,
+      "last_seen": "8 годин тому",
+      "rating": null,
+      "experience_years": null,
+      "listings_sold": null,
+      "avatar": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688"
+    },
+    "building_info": {
+      "address": "вул. Бродівська, 11",
+      "build_year_range": "2012",
+      "external_walls": "цегла",
+      "entrances": 2,
+      "insulation": "зовнішнє утеплення",
+      "yard": "паркова зона",
+      "amenities": [
+        "Паркова зона",
+        "Дитячий майданчик",
+        "Місця для паркінгу",
+        "Прогулянкові доріжки"
+      ]
+    },
+    "infrastructure": {
+      "education": [
+        {
+          "name": "Школа №28",
+          "walk_time": "18хв",
+          "distance": "1.1км"
+        },
+        {
+          "name": "Дитячий садок №25",
+          "walk_time": "12хв",
+          "distance": "720м"
+        },
+        {
+          "name": "Тернопільський фаховий коледж сільського господарства",
+          "walk_time": "30хв",
+          "distance": "1.8км"
+        }
+      ],
+      "kindergartens": [
+        {
+          "name": "Дитячий садок №25",
+          "walk_time": "12хв",
+          "distance": "720м"
+        },
+        {
+          "name": "Дитячий садок №26",
+          "walk_time": "18хв",
+          "distance": "1.1км"
+        }
+      ],
+      "schools": [
+        {
+          "name": "Школа №28",
+          "walk_time": "18хв",
+          "distance": "1.1км"
+        },
+        {
+          "name": "Школа №16",
+          "walk_time": "25хв",
+          "distance": "1.5км"
+        }
+      ],
+      "shops": [
+        {
+          "name": "АТБ-Маркет",
+          "walk_time": "15хв",
+          "distance": "900м"
+        },
+        {
+          "name": "Продуктовий магазин Кутківці",
+          "walk_time": "8хв",
+          "distance": "480м"
+        },
+        {
+          "name": "Пекарня",
+          "walk_time": "12хв",
+          "distance": "720м"
+        }
+      ],
+      "hospitals": [
+        {
+          "name": "Поліклініка №11",
+          "walk_time": "20хв",
+          "distance": "1.2км"
+        },
+        {
+          "name": "Аптека",
+          "walk_time": "10хв",
+          "distance": "600м"
+        }
+      ],
+      "parks": [
+        {
+          "name": "Лісопарк Кутківці",
+          "walk_time": "5хв",
+          "distance": "300м"
+        },
+        {
+          "name": "Парк Бродівський",
+          "walk_time": "8хв",
+          "distance": "480м"
+        }
+      ],
+      "transport": [
+        {
+          "name": "зупинка Бродівська",
+          "walk_time": "6хв",
+          "distance": "360м"
+        },
+        {
+          "name": "зупинка Кутківці",
+          "walk_time": "10хв",
+          "distance": "600м"
+        }
+      ],
+      "parking": [
+        {
+          "name": "вул. Бродівська",
+          "walk_time": "2хв",
+          "distance": "120м"
+        },
+        {
+          "name": "паркінг біля лісу",
+          "walk_time": "5хв",
+          "distance": "300м"
+        }
+      ]
+    },
+    "district_rating": {
+      "overall": 7.6,
+      "transport": 5.8,
+      "safety": 8.3,
+      "ecology": 9.2,
+      "infrastructure": 6.1,
+      "comfort": 8.0,
+      "reviews_count": 29
+    },
+    "coordinates": {
+      "lat": 49.5624,
+      "lng": 25.5803
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688",
+      "https://images.unsplash.com/photo-1503174971373-b1f69850bded",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750",
+      "https://images.unsplash.com/photo-1527030280862-64139fba04ca"
+    ],
+    "contacts": {
+      "phones": [
+        "(067) XXX XX XX"
+      ],
+      "chat_available": false
+    }
+  },
+  {
+    "id": 19,
+    "price": "91 200 $",
+    "price_hrn": "3 830 400 грн",
+    "price_per_m2": "1 260 $ за м²",
+    "price_per_m2_hrn": "52 920 грн за м²",
+    "address": "вул. Зелена",
+    "city": "Тернопіль",
+    "district": "Східний",
+    "complex": "ЖК Грін Парк",
+    "rooms": 3,
+    "total_area": "72 м²",
+    "living_area": "47 м²",
+    "kitchen_area": "13 м²",
+    "floor": "2 з 9",
+    "total_floors": 9,
+    "property_type": "Вторинна нерухомість",
+    "seller_type": "Власник",
+    "building_type": "Керамоблок",
+    "build_year": "2018",
+    "walls": "Керамоблок",
+    "ceiling_height": "2.8 м",
+    "condition": "після ремонту",
+    "heating": "індивідуальне",
+    "water_heating": "бойлер",
+    "bathroom": "роздільний санвузол",
+    "meters": [
+      "лічильник на електрику",
+      "лічильник на воду",
+      "лічильник на газ"
+    ],
+    "utilities": [
+      "електрика",
+      "газ",
+      "інтернет"
+    ],
+    "entrance": "домофон",
+    "furniture": "немає",
+    "yard_type": "паркова зона",
+    "balcony": true,
+    "internal_finish": "після ремонту",
+    "external_finish": "утеплений",
+    "insulation": "зовнішнє утеплення",
+    "ceilings_finish": "натяжні стелі",
+    "floor_finish": "ламинат",
+    "benefits": [
+      "Великий балкон",
+      "Індивідуальне опалення",
+      "Дитячий майданчик"
+    ],
+    "commission": "Без комісії",
+    "description": "Окремі кімнати, великий балкон, індивідуальне опалення.",
+    "full_description": "Трьохкімнатна сімейна квартира в будинку з керамоблоку. Ремонт 2023 року. Індивідуальне опалення (газовий котел з погодозалежною автоматикою). Три окремі кімнати: головна спальня 18 кв.м., дитяча кімната 16 кв.м., вітальня 13 кв.м. Кухня 13 кв.м. з виходом на великий балкон 6 кв.м. Роздільний санвузол (ванна кімната 5 кв.м., туалет 2 кв.м.). Балкон засклений та утеплений, можна використовувати як зимовий сад або додаткову житлову зону. Вікна трискляні. Квартира продається без меблів. Будинок розташований в зеленій зоні, поруч парк та дитячий майданчик. Ідеально для сім'ї з дітьми.",
+    "verified": true,
+    "verified_date": "4 лис.",
+    "passport_provided": true,
+    "created": "16 лис. 2025",
+    "views": 7654,
+    "saved": 189,
+    "listing_id": "ID 33438774",
+    "realtor": {
+      "name": "Петро",
+      "verified": false,
+      "online": false,
+      "last_seen": "5 годин тому",
+      "rating": null,
+      "experience_years": null,
+      "listings_sold": null,
+      "avatar": "https://images.unsplash.com/photo-1507089947368-19c1da9775ae"
+    },
+    "building_info": {
+      "address": "вул. Зелена, 22",
+      "build_year_range": "2018",
+      "external_walls": "керамоблок",
+      "entrances": 3,
+      "insulation": "зовнішнє утеплення",
+      "yard": "паркова зона",
+      "amenities": [
+        "Дитячий майданчик",
+        "Спортивний майданчик",
+        "Місця для паркінгу",
+        "Озеленення",
+        "Прогулянкові алеї"
+      ]
+    },
+    "infrastructure": {
+      "education": [
+        {
+          "name": "Школа №14",
+          "walk_time": "12хв",
+          "distance": "720м"
+        },
+        {
+          "name": "Дитячий садок №13",
+          "walk_time": "8хв",
+          "distance": "480м"
+        },
+        {
+          "name": "Тернопільський фаховий коледж будівництва",
+          "walk_time": "22хв",
+          "distance": "1.3км"
+        }
+      ],
+      "kindergartens": [
+        {
+          "name": "Дитячий садок №13",
+          "walk_time": "8хв",
+          "distance": "480м"
+        },
+        {
+          "name": "Дитячий садок №16",
+          "walk_time": "14хв",
+          "distance": "840м"
+        }
+      ],
+      "schools": [
+        {
+          "name": "Школа №14",
+          "walk_time": "12хв",
+          "distance": "720м"
+        },
+        {
+          "name": "Школа №20",
+          "walk_time": "18хв",
+          "distance": "1.1км"
+        }
+      ],
+      "shops": [
+        {
+          "name": "АТБ-Маркет",
+          "walk_time": "10хв",
+          "distance": "600м"
+        },
+        {
+          "name": "Продуктовий магазин Зелений",
+          "walk_time": "6хв",
+          "distance": "360м"
+        },
+        {
+          "name": "Пекарня",
+          "walk_time": "9хв",
+          "distance": "540м"
+        }
+      ],
+      "hospitals": [
+        {
+          "name": "Поліклініка №3",
+          "walk_time": "15хв",
+          "distance": "900м"
+        },
+        {
+          "name": "Аптека",
+          "walk_time": "8хв",
+          "distance": "480м"
+        }
+      ],
+      "parks": [
+        {
+          "name": "Парк Зелений",
+          "walk_time": "3хв",
+          "distance": "180м"
+        },
+        {
+          "name": "Сквер Східний",
+          "walk_time": "10хв",
+          "distance": "600м"
+        }
+      ],
+      "transport": [
+        {
+          "name": "зупинка Зелена",
+          "walk_time": "5хв",
+          "distance": "300м"
+        },
+        {
+          "name": "зупинка Східна",
+          "walk_time": "8хв",
+          "distance": "480м"
+        }
+      ],
+      "parking": [
+        {
+          "name": "вул. Зелена",
+          "walk_time": "2хв",
+          "distance": "120м"
+        },
+        {
+          "name": "паркінг біля парку",
+          "walk_time": "4хв",
+          "distance": "240м"
+        }
+      ]
+    },
+    "district_rating": {
+      "overall": 7.4,
+      "transport": 6.9,
+      "safety": 7.8,
+      "ecology": 8.3,
+      "infrastructure": 7.0,
+      "comfort": 7.6,
+      "reviews_count": 51
+    },
+    "coordinates": {
+      "lat": 49.5592,
+      "lng": 25.5976
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267",
+      "https://images.unsplash.com/photo-1554995207-c18c203602cb",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750"
+    ],
+    "contacts": {
+      "phones": [
+        "(067) XXX XX XX"
+      ],
+      "chat_available": false
+    }
+  },
+  {
+    "id": 20,
+    "price": "105 500 $",
+    "price_hrn": "4 431 000 грн",
+    "price_per_m2": "1 410 $ за м²",
+    "price_per_m2_hrn": "59 220 грн за м²",
+    "address": "вул. Руська",
+    "city": "Тернопіль",
+    "district": "Центр",
+    "complex": "ЖК Арт Хаус",
+    "rooms": 3,
+    "total_area": "74 м²",
+    "living_area": "50 м²",
+    "kitchen_area": "16 м²",
+    "floor": "6 з 12",
+    "total_floors": 12,
+    "property_type": "Новобудова",
+    "seller_type": "Рієлтор",
+    "building_type": "Моноліт",
+    "build_year": "2024",
+    "walls": "Моноліт",
+    "ceiling_height": "3.0 м",
+    "condition": "після ремонту",
+    "heating": "індивідуальне",
+    "water_heating": "бойлер",
+    "bathroom": "роздільний санвузол",
+    "meters": [
+      "лічильник на електрику",
+      "лічильник на воду",
+      "лічильник на газ"
+    ],
+    "utilities": [
+      "електрика",
+      "газ",
+      "інтернет",
+      "кондиціонер",
+      "розумний дім"
+    ],
+    "entrance": "домофон, відеонагляд, консьєрж",
+    "furniture": "дизайнерські меблі",
+    "yard_type": "закрита територія",
+    "balcony": true,
+    "internal_finish": "після ремонту",
+    "external_finish": "утеплений",
+    "insulation": "зовнішнє утеплення",
+    "ceilings_finish": "натяжні стелі з підсвіткою",
+    "floor_finish": "інженерна дошка",
+    "benefits": [
+      "Панорамні вікна",
+      "Підземний паркінг",
+      "Центр міста"
+    ],
+    "commission": "Комісія 2%",
+    "description": "Зроблений дорогий ремонт, панорамні вікна та підземний паркінг.",
+    "full_description": "Трьохкімнатна квартира преміум-класу в самому центрі міста. Авторський дизайнерський ремонт 2024 року. Панорамні вікна від підлоги до стелі з видом на історичний центр. Дизайнерські меблі від відомого бренду, які залишаються. Кухня 16 кв.м. з островом та технікою преміум-класу. Три окремі кімнати: головна спальня 20 кв.м. з гардеробною та санвузлом, друга спальня 18 кв.м., кабінет 12 кв.м. Два санвузли: головний з ванною та окремою душовою кабіною, гостєвий. Тепла підлога у всіх санвузлах та кухні. Кондиціонери в кожній кімнаті. Система \"розумний дім\". Паркомісце в підземному паркінгу входить у вартість. Будинок з закритою територією, консьєржем, фітнес-центром.",
+    "verified": true,
+    "verified_date": "5 лис.",
+    "passport_provided": true,
+    "created": "18 лис. 2025",
+    "views": 3891,
+    "saved": 76,
+    "listing_id": "ID 33438775",
+    "realtor": {
+      "name": "Вадим",
+      "verified": true,
+      "online": true,
+      "last_seen": "10 хвилин тому",
+      "rating": 9.8,
+      "experience_years": 10,
+      "listings_sold": 187,
+      "avatar": "https://images.unsplash.com/photo-1519981593452-666cf05569a9"
+    },
+    "building_info": {
+      "address": "вул. Руська, 5",
+      "build_year_range": "2024",
+      "external_walls": "моноліт",
+      "entrances": 1,
+      "insulation": "зовнішнє утеплення",
+      "yard": "закрита територія",
+      "amenities": [
+        "Підземний паркінг",
+        "Консьєрж",
+        "Фітнес-центр",
+        "SPA-зона",
+        "Басейн",
+        "Дитяча кімната",
+        "Кінотеатр",
+        "Відеонагляд 24/7",
+        "Охорона"
+      ]
+    },
+    "infrastructure": {
+      "education": [
+        {
+          "name": "Гімназія №1",
+          "walk_time": "5хв",
+          "distance": "300м"
+        },
+        {
+          "name": "Дитячий садок №1",
+          "walk_time": "8хв",
+          "distance": "480м"
+        },
+        {
+          "name": "Тернопільський національний університет",
+          "walk_time": "10хв",
+          "distance": "600м"
+        }
+      ],
+      "kindergartens": [
+        {
+          "name": "Дитячий садок №1",
+          "walk_time": "8хв",
+          "distance": "480м"
+        },
+        {
+          "name": "Приватний садок Арт",
+          "walk_time": "12хв",
+          "distance": "720м"
+        }
+      ],
+      "schools": [
+        {
+          "name": "Гімназія №1",
+          "walk_time": "5хв",
+          "distance": "300м"
+        },
+        {
+          "name": "Ліцей №2",
+          "walk_time": "10хв",
+          "distance": "600м"
+        }
+      ],
+      "shops": [
+        {
+          "name": "ТРЦ Галерія",
+          "walk_time": "3хв",
+          "distance": "180м"
+        },
+        {
+          "name": "Сільпо преміум",
+          "walk_time": "5хв",
+          "distance": "300м"
+        },
+        {
+          "name": "Бутики на Руській",
+          "walk_time": "2хв",
+          "distance": "120м"
+        }
+      ],
+      "hospitals": [
+        {
+          "name": "Обласна лікарня",
+          "walk_time": "8хв",
+          "distance": "480м"
+        },
+        {
+          "name": "Приватна клініка Медікал Центр",
+          "walk_time": "6хв",
+          "distance": "360м"
+        }
+      ],
+      "parks": [
+        {
+          "name": "Парк ім. Тараса Шевченка",
+          "walk_time": "7хв",
+          "distance": "420м"
+        },
+        {
+          "name": "Сквер Руський",
+          "walk_time": "2хв",
+          "distance": "120м"
+        }
+      ],
+      "transport": [
+        {
+          "name": "зупинка Центр",
+          "walk_time": "3хв",
+          "distance": "180м"
+        },
+        {
+          "name": "зупинка Руська",
+          "walk_time": "1хв",
+          "distance": "60м"
+        }
+      ],
+      "parking": [
+        {
+          "name": "підземний паркінг",
+          "walk_time": "1хв",
+          "distance": "50м"
+        },
+        {
+          "name": "вул. Руська",
+          "walk_time": "2хв",
+          "distance": "120м"
+        }
+      ]
+    },
+    "district_rating": {
+      "overall": 9.1,
+      "transport": 9.4,
+      "safety": 8.9,
+      "ecology": 7.6,
+      "infrastructure": 9.3,
+      "comfort": 9.2,
+      "reviews_count": 104
+    },
+    "coordinates": {
+      "lat": 49.5547,
+      "lng": 25.5899
+    },
+    "images": [
+      "https://images.unsplash.com/photo-1519981593452-666cf05569a9",
+      "https://images.unsplash.com/photo-1550583724-b2692b85b150",
+      "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c",
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7"
+    ],
+    "contacts": {
+      "phones": [
+        "(067) XXX XX XX",
+        "(050) XXX XX XX",
+        "(063) XXX XX XX"
+      ],
+      "chat_available": true
+    }
+  }
+]
