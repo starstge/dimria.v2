@@ -1,0 +1,589 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Вибір</title>
+  <link rel="stylesheet" href="/src/output.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+
+
+<body>
+  <div id="overlay"></div>
+
+  <!-- Сайдбар чатов с риелторами -->
+<div id="chatsSidebar" class="sidebar">
+  <div class="sidebar-header">
+    <div style="display: flex; align-items: center; gap: 10px;">
+      <i class="fa-regular fa-comments" style="font-size: 20px;"></i>
+      <h3 style="margin: 0; font-size: 18px;">Мої чати</h3>
+      <span id="chatsCountBadge" style="
+        background: #dc3545;
+        color: white;
+        font-size: 12px;
+        padding: 2px 8px;
+        border-radius: 10px;
+        display: none;
+      ">0</span>
+    </div>
+    <button id="closeChatsSidebar" class="close-sidebar">&times;</button>
+  </div>
+  <div class="sidebar-body" id="chatsListContainer">
+    <!-- Список чатов будет загружен здесь -->
+  </div>
+  <!-- Убираем кнопку "Новий чат" -->
+</div>
+<div id="chatsOverlay" class="overlay"></div>
+
+  <div id="userOverlay">
+    <div class="overlay-content">
+      <div class="overlay-header" style="background-color: #8fc9f6;">
+        <div>
+          <a href="https://dom.ria.com/uk/"><img src="./src/img/logo.png" alt=""></a>
+        </div>
+        <button id="closeOverlay">&times;</button>
+      </div>
+      <div>
+
+      </div>
+    </div>
+  </div>
+
+  <div id="likesOverlay"></div>
+
+  <aside id="likesSidebar">
+    <div class="sidebar-header">
+      <h4>Обрані квартири</h4>
+      <button id="closeLikes">&times;</button>
+    </div>
+    <div id="likedListings"></div>
+  </aside>
+
+  <div id="addOverlay"></div>
+
+  <aside id="addListingSidebar">
+    <div class="sidebar-header">
+      <h4>Додати оголошення</h4>
+      <button id="closeAddSidebar">&times;</button>
+    </div>
+
+    <div class="sidebar-body">
+      <form id="addListingForm">
+        <div id="addListingContent">
+          <div class="row g-2 p-3">
+            <div class="col-md-6"><label>Ціна (USD) <i class="fas fa-question-circle text-muted"
+                  title="Введіть ціну в доларах США"></i></label><input id="fld_price_usd" class="form-control"
+                placeholder="Введіть ціну в доларах" /><small class="text-muted">Конвертація в UAH відбувається
+                автоматично</small></div>
+            <div class="col-md-6"><label>Ціна (UAH) <i class="fas fa-question-circle text-muted"
+                  title="Ціна автоматично розраховується в гривнях"></i></label><input id="fld_price_hrn"
+                class="form-control" readonly /></div>
+            <div class="col-md-6"><label>Ціна за м² (USD) <i class="fas fa-question-circle text-muted"
+                  title="Ціна за квадратний метр в доларах"></i></label><input id="fld_price_per_m2_usd"
+                class="form-control" placeholder="Ціна за м² в доларах" /><small class="text-muted">Конвертація в UAH
+                відбувається автоматично</small></div>
+            <div class="col-md-6"><label>Ціна за м² (UAH) <i class="fas fa-question-circle text-muted"
+                  title="Ціна за квадратний метр автоматично розраховується в гривнях"></i></label><input
+                id="fld_price_per_m2_hrn" class="form-control" readonly /></div>
+            <div class="col-md-6"><label>Вулиця / Адреса <i class="fas fa-question-circle text-muted"
+                  title="Повна адреса нерухомості"></i></label><input id="fld_address" class="form-control" /></div>
+            <div class="col-md-6"><label>Місто <i class="fas fa-question-circle text-muted"
+                  title="Місто розташування нерухомості"></i></label><input id="fld_city" class="form-control"
+                value="Тернопіль" /></div>
+            <div class="col-md-6"><label>Район <i class="fas fa-question-circle text-muted"
+                  title="Район або мікрорайон міста"></i></label><input id="fld_district" class="form-control"
+                placeholder="Наприклад: Молодіжний" /></div>
+            <div class="col-md-6"><label>Комплекс <i class="fas fa-question-circle text-muted"
+                  title="Назва житлового комплексу (якщо є)"></i></label><input id="fld_complex" class="form-control" />
+            </div>
+
+            <div class="col-md-3"><label>Кімнати <i class="fas fa-question-circle text-muted"
+                  title="Кількість кімнат у квартирі"></i></label><input id="fld_rooms" type="number"
+                class="form-control" value="1" /></div>
+            <div class="col-md-3"><label>Загальна площа <i class="fas fa-question-circle text-muted"
+                  title="Загальна площа в квадратних метрах"></i></label><input id="fld_total_area" class="form-control"
+                placeholder="м²" /></div>
+            <div class="col-md-3"><label>Житлова площа <i class="fas fa-question-circle text-muted"
+                  title="Житлова площа без кухні та санвузла"></i></label><input id="fld_living_area"
+                class="form-control" placeholder="м²" /></div>
+            <div class="col-md-3"><label>Площа кухні <i class="fas fa-question-circle text-muted"
+                  title="Площа кухні в квадратних метрах"></i></label><input id="fld_kitchen_area" class="form-control"
+                placeholder="м²" /></div>
+
+
+            <div class="col-md-3"><label>Поверх <i class="fas fa-question-circle text-muted"
+                  title="Поверх на якому розташована квартира"></i></label><input id="fld_floor" class="form-control" />
+            </div>
+            <div class="col-md-3"><label>Заг. поверхів <i class="fas fa-question-circle text-muted"
+                  title="Загальна кількість поверхів у будинку"></i></label><input id="fld_total_floors" type="number"
+                class="form-control" value="1" /></div>
+
+
+            <div class="col-md-6"><label>Тип нерухомості <i class="fas fa-question-circle text-muted"
+                  title="Наприклад: Квартира, Будинок, Офіс"></i></label>
+              <select id="fld_property_type" class="form-control">
+                <option value="Квартира" selected>Квартира</option>
+                <option value="Будинок">Будинок</option>
+                <option value="Офіс">Офіс</option>
+                <option value="Комерційна">Комерційна</option>
+              </select>
+            </div>
+            <div class="col-md-6"><label>Тип продавця <i class="fas fa-question-circle text-muted"
+                  title="Наприклад: Власник, Агент, Забудовник"></i></label>
+              <select id="fld_seller_type" class="form-control">
+                <option value="Власник">Власник</option>
+                <option value="Рієлтор">Рієлтор</option>
+                <option value="Забудовник">Забудовник</option>
+                <option value="Агент">Агент</option>
+              </select>
+            </div>
+
+            <div class="col-md-6"><label>Тип будівлі <i class="fas fa-question-circle text-muted"
+                  title="Наприклад: Панельний, Цегляний, Монолітний"></i></label>
+              <select id="fld_building_type" class="form-control">
+                <option value="Цегляний">Цегляний</option>
+                <option value="Панельний">Панельний</option>
+                <option value="Монолітний">Монолітний</option>
+                <option value="Блочний">Блочний</option>
+                <option value="Каркасний">Каркасний</option>
+              </select>
+            </div>
+            <div class="col-md-6"><label>Рік будівництва <i class="fas fa-question-circle text-muted"
+                  title="Рік коли було збудовано будинок"></i></label><input id="fld_build_year" class="form-control"
+                placeholder="Наприклад: 2005" /></div>
+
+            <div class="col-md-6"><label>Стіни <i class="fas fa-question-circle text-muted"
+                  title="Матеріал стін будинку"></i></label>
+              <select id="fld_walls" class="form-control">
+                <option value="Цегла">Цегла</option>
+                <option value="Панель">Панель</option>
+                <option value="Газоблок">Газоблок</option>
+                <option value="Керамоблок">Керамоблок</option>
+              </select>
+            </div>
+            <div class="col-md-6"><label>Висота стель <i class="fas fa-question-circle text-muted"
+                  title="Висота стель в метрах"></i></label><input id="fld_ceiling_height" class="form-control"
+                placeholder="Наприклад: 2.5" /></div>
+
+
+            <div class="col-md-6"><label>Стан <i class="fas fa-question-circle text-muted"
+                  title="Стан нерухомості: Нове, Після ремонту, Потребує ремонту"></i></label>
+              <select id="fld_condition" class="form-control">
+                <option value="Нове">Нове</option>
+                <option value="Після ремонту">Після ремонту</option>
+                <option value="Євроремонт">Євроремонт</option>
+                <option value="Потребує ремонту">Потребує ремонту</option>
+                <option value="Чорнова">Чорнова</option>
+              </select>
+            </div>
+            <div class="col-md-6"><label>Опалення <i class="fas fa-question-circle text-muted"
+                  title="Тип системи опалення"></i></label>
+              <select id="fld_heating" class="form-control">
+                <option value="Центральне">Центральне</option>
+                <option value="Індивідуальне">Індивідуальне</option>
+                <option value="Газове">Газове</option>
+                <option value="Електричне">Електричне</option>
+              </select>
+            </div>
+
+
+            <div class="col-md-6"><label>Підігрів води <i class="fas fa-question-circle text-muted"
+                  title="Тип підігріву води"></i></label>
+              <select id="fld_water_heating" class="form-control">
+                <option value="Бойлер">Бойлер</option>
+                <option value="Колонка">Колонка</option>
+                <option value="Централізоване">Централізоване</option>
+              </select>
+            </div>
+            <div class="col-md-6"><label>Санвузол <i class="fas fa-question-circle text-muted"
+                  title="Тип санвузла: Роздільний, Суміжний"></i></label>
+              <select id="fld_bathroom" class="form-control">
+                <option value="Роздільний">Роздільний</option>
+                <option value="Суміжний">Суміжний</option>
+                <option value="2 санвузли">2 санвузли</option>
+              </select>
+            </div>
+
+            <div class="col-md-6"><label>Лічильники (через коми) <i class="fas fa-question-circle text-muted"
+                  title="Наприклад: електроенергія, газ, вода"></i></label><input id="fld_meters" class="form-control"
+                placeholder="електроенергія, газ, вода" /></div>
+            <div class="col-md-6"><label>Комунікації (через коми) <i class="fas fa-question-circle text-muted"
+                  title="Наприклад: інтернет, TV, телефон"></i></label><input id="fld_utilities" class="form-control"
+                placeholder="інтернет, TV, телефон" /></div>
+
+            <div class="col-md-6"><label>Двері <i class="fas fa-question-circle text-muted"
+                  title="Тип вхідних дверей"></i></label>
+              <select id="fld_entrance" class="form-control">
+                <option value="Металеві">Металеві</option>
+                <option value="Дерев'яні">Дерев'яні</option>
+                <option value="Протипожежні">Протипожежні</option>
+              </select>
+            </div>
+            <div class="col-md-6"><label>Меблі <i class="fas fa-question-circle text-muted"
+                  title="Наявність та стан меблів"></i></label>
+              <select id="fld_furniture" class="form-control">
+                <option value="Повністю">Повністю</option>
+                <option value="Частково">Частково</option>
+                <option value="Без меблів">Без меблів</option>
+                <option value="Кухонні меблі">Кухонні меблі</option>
+              </select>
+            </div>
+
+
+            <div class="col-md-6"><label>Тип двору <i class="fas fa-question-circle text-muted"
+                  title="Тип двору: Закритий, Відкритий"></i></label>
+              <select id="fld_yard_type" class="form-control">
+                <option value="Закритий">Закритий</option>
+                <option value="Відкритий">Відкритий</option>
+                <option value="Оздоблений">Оздоблений</option>
+              </select>
+            </div>
+            <div class="col-md-6 d-flex align-items-end">
+              <div class="form-check">
+                <input id="fld_balcony" type="checkbox" class="form-check-input" />
+                <label class="form-check-label" for="fld_balcony">Балкон/лоджія</label>
+              </div>
+            </div>
+
+
+            <div class="col-md-6"><label>Внутрішня обробка <i class="fas fa-question-circle text-muted"
+                  title="Стан внутрішньої обробки"></i></label>
+              <select id="fld_internal_finish" class="form-control">
+                <option value="Євроремонт">Євроремонт</option>
+                <option value="Дизайнерський">Дизайнерський</option>
+                <option value="Стандартна">Стандартна</option>
+                <option value="Чорнова">Чорнова</option>
+              </select>
+            </div>
+            <div class="col-md-6"><label>Зовнішня обробка <i class="fas fa-question-circle text-muted"
+                  title="Стан зовнішньої обробки будинку"></i></label>
+              <select id="fld_external_finish" class="form-control">
+                <option value="Утеплена">Утеплена</option>
+                <option value="Штукатурка">Штукатурка</option>
+                <option value="Цегла">Цегла</option>
+                <option value="Панелі">Панелі</option>
+              </select>
+            </div>
+
+            <div class="col-md-6"><label>Утеплення <i class="fas fa-question-circle text-muted"
+                  title="Наявність утеплення будинку"></i></label>
+              <select id="fld_insulation" class="form-control">
+                <option value="Фасадне">Фасадне</option>
+                <option value="Внутрішнє">Внутрішнє</option>
+                <option value="Без утеплення">Без утеплення</option>
+              </select>
+            </div>
+            <div class="col-md-6"><label>Обробка стель <i class="fas fa-question-circle text-muted"
+                  title="Стан обробки стель"></i></label>
+              <select id="fld_ceilings_finish" class="form-control">
+                <option value="Натяжні">Натяжні</option>
+                <option value="Гіпсокартон">Гіпсокартон</option>
+                <option value="Побілені">Побілені</option>
+                <option value="Поклеєні">Поклеєні</option>
+              </select>
+            </div>
+
+            <div class="col-md-6"><label>Обробка підлоги <i class="fas fa-question-circle text-muted"
+                  title="Стан обробки підлоги"></i></label>
+              <select id="fld_floor_finish" class="form-control">
+                <option value="Ламінат">Ламінат</option>
+                <option value="Паркет">Паркет</option>
+                <option value="Плитка">Плитка</option>
+                <option value="Лінолеум">Лінолеум</option>
+              </select>
+            </div>
+            <div class="col-md-6"><label>Переваги (через коми) <i class="fas fa-question-circle text-muted"
+                  title="Наприклад: парковка, гараж, ліфт"></i></label><input id="fld_benefits" class="form-control"
+                placeholder="парковка, ліфт, консьєрж" /></div>
+
+            <div class="col-md-6"><label>Комісія <i class="fas fa-question-circle text-muted"
+                  title="Комісія ріелтора або агента (якщо є)"></i></label>
+              <select id="fld_commission" class="form-control">
+                <option value="Без комісії" selected>Без комісії</option>
+                <option value="1%">1%</option>
+                <option value="2%">2%</option>
+                <option value="3%">3%</option>
+                <option value="5%">5%</option>
+              </select>
+            </div>
+
+
+            <div class="col-md-6"><label>Рейтинг району <i class="fas fa-question-circle text-muted"
+                  title="Загальний рейтинг району"></i></label><input id="fld_district_rating" class="form-control"
+                placeholder="Наприклад: 5.2" type="number" step="0.1" min="1" max="10" /></div>
+
+
+            <div class="col-12">
+              <h5 class="mt-3 mb-2">Інфраструктура поруч</h5>
+            </div>
+
+            <div class="col-md-6"><label>Навчальні заклади (через коми) <i class="fas fa-question-circle text-muted"
+                  title="Наприклад: Галицький коледж, ТНТУ"></i></label><textarea id="fld_education"
+                class="form-control" rows="2" placeholder="Галицький коледж - 18хв, ТНТУ - 23хв"></textarea></div>
+            <div class="col-md-6"><label>Дитячі садки (через коми) <i class="fas fa-question-circle text-muted"
+                  title="Наприклад: Дитячий садок №17 - 3хв"></i></label><textarea id="fld_kindergartens"
+                class="form-control" rows="2" placeholder="Дитячий садок №17 - 3хв, Дитячий садок №9 - 6хв"></textarea>
+            </div>
+
+            <div class="col-md-6"><label>Школи (через коми) <i class="fas fa-question-circle text-muted"
+                  title="Наприклад: Школа №26 - 5хв"></i></label><textarea id="fld_schools" class="form-control"
+                rows="2" placeholder="Школа №26 - 5хв, Школа №27 - 6хв"></textarea></div>
+            <div class="col-md-6"><label>Магазини/ТЦ (через коми) <i class="fas fa-question-circle text-muted"
+                  title="Наприклад: АТБ-Маркет - 12хв"></i></label><textarea id="fld_shops" class="form-control"
+                rows="2" placeholder="АТБ-Маркет - 12хв, ТЦ Рай Центр - 14хв"></textarea></div>
+
+            <div class="col-md-6"><label>Лікарні (через коми) <i class="fas fa-question-circle text-muted"
+                  title="Наприклад: Комунальне некомерційне підприємство - 4хв"></i></label><textarea id="fld_hospitals"
+                class="form-control" rows="2"
+                placeholder="Комунальне некомерційне підприємство - 4хв, D.S. - 8хв"></textarea></div>
+            <div class="col-md-6"><label>Парки (через коми) <i class="fas fa-question-circle text-muted"
+                  title="Наприклад: Cквер ім. Андрія Первозваного - 8хв"></i></label><textarea id="fld_parks"
+                class="form-control" rows="2"
+                placeholder="Cквер ім. Андрія Первозваного - 8хв, Бульвар Дмитра Вишневецького - 11хв"></textarea></div>
+
+            <div class="col-md-6"><label>Транспорт (через коми) <i class="fas fa-question-circle text-muted"
+                  title="Наприклад: бульвар Куліша - 3хв"></i></label><textarea id="fld_transport" class="form-control"
+                rows="2" placeholder="бульвар Куліша - 3хв, вул. В. Симоненка - 8хв"></textarea></div>
+            <div class="col-md-6"><label>Паркінг (через коми) <i class="fas fa-question-circle text-muted"
+                  title="Наприклад: 15 Квітня вулиця - 1хв"></i></label><textarea id="fld_parking" class="form-control"
+                rows="2" placeholder="15 Квітня вулиця - 1хв, Cимоненка вулиця - 4хв"></textarea></div>
+
+
+            <div class="col-12">
+              <h5 class="mt-3 mb-2">Додаткові зручності</h5>
+            </div>
+
+            <div class="col-md-4">
+              <div class="form-check">
+                <input id="fld_amenity_green" type="checkbox" class="form-check-input" />
+                <label class="form-check-label" for="fld_amenity_green">Озеленення</label>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-check">
+                <input id="fld_amenity_parking" type="checkbox" class="form-check-input" />
+                <label class="form-check-label" for="fld_amenity_parking">Місця для паркінгу</label>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-check">
+                <input id="fld_amenity_sport" type="checkbox" class="form-check-input" />
+                <label class="form-check-label" for="fld_amenity_sport">Спортивний майданчик</label>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="form-check">
+                <input id="fld_amenity_playground" type="checkbox" class="form-check-input" />
+                <label class="form-check-label" for="fld_amenity_playground">Дитячий майданчик</label>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-check">
+                <input id="fld_amenity_elevator" type="checkbox" class="form-check-input" />
+                <label class="form-check-label" for="fld_amenity_elevator">Ліфт</label>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-check">
+                <input id="fld_amenity_security" type="checkbox" class="form-check-input" />
+                <label class="form-check-label" for="fld_amenity_security">Охорона</label>
+              </div>
+            </div>
+
+
+            <div class="col-12">
+              <h5 class="mt-3 mb-2">Опис</h5>
+            </div>
+
+            <div class="col-12"><label>Короткий опис <i class="fas fa-question-circle text-muted"
+                  title="Короткий опис нерухомості для оголошення"></i></label><textarea id="fld_description"
+                class="form-control" rows="3"
+                placeholder="Двокімнатна квартира з окремою кухнею, сучасним ремонтом та лоджією. Індивідуальне опалення, підігрів підлоги."></textarea>
+            </div>
+            <div class="col-12"><label>Повний опис <i class="fas fa-question-circle text-muted"
+                  title="Детальний опис всіх особливостей нерухомості"></i></label><textarea id="fld_full_description"
+                class="form-control" rows="3"></textarea></div>
+
+
+            <div class="col-12">
+              <h5 class="mt-3 mb-2">Верифікація</h5>
+            </div>
+
+            <div class="col-md-4">
+              <div class="form-check">
+                <input id="fld_verified" type="checkbox" class="form-check-input" />
+                <label class="form-check-label" for="fld_verified">Перевірено</label>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-check">
+                <input id="fld_passport_provided" type="checkbox" class="form-check-input" />
+                <label class="form-check-label" for="fld_passport_provided">Паспорт надано</label>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label>Дата перевірки <i class="fas fa-question-circle text-muted"
+                  title="Дата останньої перевірки інформації"></i></label><input id="fld_verified_date"
+                class="form-control" placeholder="Наприклад: 4 лис." />
+            </div>
+
+            <div class="col-12">
+              <h5 class="mt-3 mb-2">Контакти</h5>
+            </div>
+
+            <div class="col-md-6"><label>Ім'я рієлтора <i class="fas fa-question-circle text-muted"
+                  title="Ім'я рієлтора або продавця"></i></label><input id="fld_realtor_name" class="form-control"
+                placeholder="Наприклад: Олена" /></div>
+            <div class="col-md-6"><label>Статус <i class="fas fa-question-circle text-muted"
+                  title="Статус рієлтора"></i></label>
+              <select id="fld_realtor_status" class="form-control">
+                <option value="Онлайн">Онлайн</option>
+                <option value="Не в мережі">Не в мережі</option>
+                <option value="3 години тому">3 години тому</option>
+              </select>
+            </div>
+
+            <div class="col-md-6"><label>Рейтинг рієлтора <i class="fas fa-question-circle text-muted"
+                  title="Рейтинг рієлтора від 1 до 10"></i></label><input id="fld_realtor_rating" class="form-control"
+                placeholder="Наприклад: 10" type="number" min="1" max="10" /></div>
+            <div class="col-md-6"><label>Досвід роботи <i class="fas fa-question-circle text-muted"
+                  title="Скільки років працює рієлтор"></i></label><input id="fld_realtor_experience"
+                class="form-control" placeholder="Наприклад: 2 роки" /></div>
+
+
+            <div class="col-12">
+              <h5 class="mt-3 mb-2">Медіа та координати</h5>
+            </div>
+
+            <div class="col-12"><label>Зображення (URL, через коми) <i class="fas fa-question-circle text-muted"
+                  title="Посилання на зображення через кому"></i></label><input id="fld_images_url" class="form-control"
+                placeholder="https://example.com/image1.jpg, https://example.com/image2.jpg" /></div>
+            <div class="col-12"><label>Завантажити зображення <i class="fas fa-question-circle text-muted"
+                  title="Оберіть фотографії нерухомості (до 10 файлів)"></i></label><input id="fld_images_upload"
+                type="file" class="form-control" multiple accept="image/*" /></div>
+
+            <div class="col-12"><label>Контакти (телефони через коми) <i class="fas fa-question-circle text-muted"
+                  title="Телефонні номери для зв'язку через кому"></i></label><input id="fld_phones"
+                class="form-control" placeholder="(067) XXX XX XX, (098) XXX XX XX" /></div>
+
+            <div class="col-md-6"><label>Широта (Lat) <i class="fas fa-question-circle text-muted"
+                  title="Широта на карті (координати GPS)"></i></label><input id="fld_lat" class="form-control"
+                placeholder="Наприклад: 49.5535" /></div>
+            <div class="col-md-6"><label>Довгота (Lng) <i class="fas fa-question-circle text-muted"
+                  title="Довгота на карті (координати GPS)"></i></label><input id="fld_lng" class="form-control"
+                placeholder="Наприклад: 25.5948" /></div>
+          </div>
+        </div>
+      </form>
+
+      <div class="sidebar-footer p-3 d-flex gap-2 justify-content-end">
+        <button id="previewBtn" class="btn btn-outline-primary">Попередній вигляд</button>
+        <button id="saveListingBtn" class="btn btn-primary">Зберегти оголошення</button>
+        <button id="cancelListingBtn" class="btn btn-secondary" type="button">Скасувати</button>
+      </div>
+    </div>
+  </aside>
+
+  <div id="previewOverlay"></div>
+
+  <aside id="previewSidebar">
+    <div class="sidebar-header">
+      <h4>Попередній вигляд оголошення</h4>
+      <button id="closePreviewSidebar">&times;</button>
+    </div>
+
+    <div class="sidebar-body">
+      <div id="previewContent"></div>
+    </div>
+  </aside>
+
+  <header>
+    <div class="header-top container-fluid bg-light-blue align-items-center">
+      <div class="row justify-content-center align-items-center py-3">
+        <div class="col-lg-1 d-lg-flex d-none"></div>
+        <div class="col-lg-1 col-md-2 col-sm-3 logo-col">
+          <a href="https://dom.ria.com/uk/"><img src="src/img/logo.png" alt="Logo" class="logo-img"></a>
+        </div>
+        <div class="col-lg-6 col-md-9 col-sm-8 search-col">
+          <div class="input-group search-group">
+            <input type="text" class="form-control search-input" placeholder="Район, вулиця, метро, ЖК">
+            <button class="btn btn-light search-btn" type="button">
+              <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-1 col-md-1 d-flex align-items-center justify-content-end gap-3 header-icons m-0">
+          <i class="fa-regular fa-bell fa-2x d-lg-flex d-none"></i>
+          <i class="fa-regular fa-heart fa-2x d-lg-flex d-none" id="likesBtn"></i>
+          <i class="fa-regular fa-circle-user fa-2x d-flex" id="userBtn"></i>
+          <button class="btn btn-warning add-listing-btn d-lg-flex d-none" data-short="Додати">
+            <i class="fa-solid fa-plus"></i><span class="btn-text"> Додати оголошення</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="d-lg-flex d-none header-filters">
+        <div class="col-lg-1"></div>
+        <div class="custom-select-container mb-2">
+          <div class="custom-select" id="roomSelect">
+            <span>Кількість кімнат</span>
+            <ul class="custom-options">
+              <li data-value="1">1 кімната</li>
+              <li data-value="2">2 кімнати</li>
+              <li data-value="3">3 кімнати</li>
+              <li data-value="4">4 кімнати</li>
+            </ul>
+          </div>
+        </div>
+        <div class="filter-inputs d-flex align-items-center gap-2">
+          <input type="number" id="priceMin" placeholder="Ціна від" class="form-control mb-2"
+            style="width:120px; margin-left: 10px;">
+          <input type="number" id="priceMax" placeholder="Ціна до" class="form-control mb-2" style="width:120px">
+          <input type="number" id="areaMin" placeholder="Площа від (м²)" class="form-control mb-2" style="width:140px">
+          <input type="number" id="areaMax" placeholder="Площа до (м²)" class="form-control mb-2" style="width:140px">
+        </div>
+        <input type="hidden" id="propertyType">
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="main-text">
+      <h2>Продаж нерухомості у Тернополі</h2>
+      <h4 class="flat-number" id="flat-number"></h4>
+    </section>
+    <section id="listings"></section>
+  </main>
+
+  <footer>
+    <div class="footer bg-dark d-flex">
+      <div class="col-lg-3 d-flex footer-left">
+        <p class="footer-text">© 2014-2025</p>
+        <p class="footer-text">RIA.com</p>
+        <p class="footer-text">Автомобілі</p>
+      </div>
+      <div class="col-lg-6"></div>
+      <div class="col-lg-3 d-flex footer-right">
+        <p class="footer-text">© 2014-2025</p>
+        <p class="footer-text">RIA.com</p>
+        <p class="footer-text">Автомобілі</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
