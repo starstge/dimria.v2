@@ -463,10 +463,15 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 });
 
-if (window.location.pathname.includes("details.html")) {
+// Работает и локально, и на Render
+if (
+  window.location.pathname.includes("details.html") || 
+  window.location.pathname.startsWith("/details")
+) {
   document.addEventListener("DOMContentLoaded", () => {
-    console.log("Загружаем сторінку details.html");
+    console.log("Загружаем сторінку details");
 
+    // Читаем ID из URL
     const params = new URLSearchParams(window.location.search);
     const id = params.get("id");
     console.log("ID з URL:", id);
@@ -476,33 +481,33 @@ if (window.location.pathname.includes("details.html")) {
       return;
     }
 
-    currentItem = getAllData().find(el => el.id == id);
+    // Ищем объект
+    const currentItem = getAllData().find(el => el.id == id);
     console.log("Знайдено обєкта:", currentItem);
 
     if (!currentItem) {
-      console.error("Обьєкт з ID", id, "не знайдено в базі данних");
+      console.error("Об'єкт з ID", id, "не знайдено");
       alert("Об'єкт не знайдено! Поверніться на головну сторінку.");
       return;
     }
 
+    // Заполняем страницу
     populatePropertyDetails(currentItem);
     initCarousel();
 
+    // Кнопка "Повний опис"
     const toggleBtn = document.getElementById("toggleBtn");
     const fullDesc = document.getElementById("fullDesc");
 
     if (toggleBtn && fullDesc) {
       toggleBtn.addEventListener("click", () => {
-        if (fullDesc.style.display === "none" || fullDesc.style.display === "") {
-          fullDesc.style.display = "block";
-          toggleBtn.textContent = "Згорнути";
-        } else {
-          fullDesc.style.display = "none";
-          toggleBtn.textContent = "Повний опис";
-        }
+        const isHidden = fullDesc.style.display === "none" || fullDesc.style.display === "";
+        fullDesc.style.display = isHidden ? "block" : "none";
+        toggleBtn.textContent = isHidden ? "Згорнути" : "Повний опис";
       });
     }
 
+    // Превью фото
     const photosPreviewBtn = document.querySelector('.photos-preview-box');
     if (photosPreviewBtn) {
       photosPreviewBtn.addEventListener('click', () => openPhotosModal(currentItem));
@@ -510,26 +515,6 @@ if (window.location.pathname.includes("details.html")) {
   });
 }
 
-if (window.location.pathname.endsWith("index.html") || window.location.pathname === "/") {
-  document.addEventListener("DOMContentLoaded", () => {
-    console.log("Загружаем головну сторінку");
-    const container = document.getElementById("listings");
-    if (!container) return;
-
-    initAddListingModal();
-
-    applyFilters();
-
-    container.addEventListener("click", e => {
-      const flatBlock = e.target.closest(".flat-text-block");
-      if (flatBlock && !e.target.closest(".like-btn")) {
-        const section = flatBlock.closest("section");
-        const id = section.dataset.id;
-        window.location.href = `details.html?id=${id}`;
-      }
-    });
-  });
-}
 
 if (select) {
   select.addEventListener("click", () => {
@@ -3242,4 +3227,5 @@ function getChatsList() {
     const timeB = new Date(b.lastMessageTime || b.createdAt || 0);
     return timeB - timeA;
   });
+
 }
