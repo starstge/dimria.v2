@@ -204,10 +204,9 @@
       "lng": 25.5949
     },
     "images": [
-      "https://www.apartmentguide.com/blog/what-is-a-flat/",
-      "https://www.booking.com/hotel/cz/flat-apartment-luxury.cs.html",
-      "https://www.monobrand.cz/flat-reconstruction-bratislava-stare-mesto",
-      "https://www.rishita.in/blog/what-is-a-duplex-flat"
+      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae",
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858",
+      "https://images.unsplash.com/photo-1527030280862-64139fba04ca"
     ],
     "contacts": {
       "phones": [
@@ -424,9 +423,9 @@
       "lng": 25.5902
     },
     "images": [
-      "./src/img/img5.webp",
-      "./src/img/img6.webp",
-      "./src/img/img7.webp"
+      "https://images.unsplash.com/photo-1507089947368-19c1da9775ae",
+      "https://images.unsplash.com/photo-1484154218962-a197022b5858",
+      "https://images.unsplash.com/photo-1527030280862-64139fba04ca"
     ],
     "contacts": {
       "phones": [
@@ -4395,3 +4394,4 @@
   }
 
 ]
+
