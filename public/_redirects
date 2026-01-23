@@ -1,3 +1,2 @@
-/details    /index.html   200
-/details/*  /index.html   200
-/*          /index.html   200
+/details    /details.html    200
+/           /index.html      200
