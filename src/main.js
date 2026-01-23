@@ -625,7 +625,7 @@ if (window.location.pathname.endsWith("index.html") || window.location.pathname 
       if (flatBlock && !e.target.closest(".like-btn")) {
         const section = flatBlock.closest("section");
         const id = section.dataset.id;
-        window.location.href = `details.html?id=${id}`;
+        window.location.href = `/details?id=${id}`;
       }
     });
   });
@@ -3229,3 +3229,4 @@ function getChatsList() {
   });
 
 }
+
