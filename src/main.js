@@ -620,12 +620,14 @@ if (window.location.pathname.endsWith("index.html") || window.location.pathname 
     
     restoreLikesOnPageLoad();
 
+    
     container.addEventListener("click", e => {
       const flatBlock = e.target.closest(".flat-text-block");
       if (flatBlock && !e.target.closest(".like-btn")) {
         const section = flatBlock.closest("section");
         const id = section.dataset.id;
-        window.location.href = `/details?id=${id}`;
+
+        window.location.href = `/details.html?id=${id}`;
       }
     });
   });
